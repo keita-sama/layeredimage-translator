@@ -17,10 +17,6 @@ export class Group {
         this.if_all = [];
         this.if_not = [];
     }
-
-    getLastAttr() {
-        return this.attributes.at(-1);
-    }
     listAttributes() {
         return this.attributes.map((attr) => attr.name);
     }

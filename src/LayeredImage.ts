@@ -13,9 +13,6 @@ export class LayeredImage {
     getGroups() {
         return this.groups;
     }
-    getLastGroup() {
-        return this.groups.at(-1);
-    }
     getAttributes() {
         return this.groups.map((group) => group.getAttributes()).flat();
     }

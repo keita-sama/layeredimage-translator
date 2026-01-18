@@ -7,11 +7,10 @@ import {
     LogicKeyword,
     ReservedKeyword,
 } from './src/Attribute';
-import console from 'node:console';
 
 type UnparsedLayeredImage = { name: string; sentences: string[] };
 
-const file = fs.readFileSync('./MPT/sayori_layeredimage.rpy').toString();
+const file = fs.readFileSync('./MPT/yuri_layeredimage.rpy').toString();
 const splitFile: string[] = file
     .replace(/#.*$/gm, '') // Remove the comments.
     .replace(/\:/g, '')
@@ -80,7 +79,7 @@ function parseLayeredImage({ name, sentences }: UnparsedLayeredImage) {
             // assume it' going in the most recent group;
             const attribute = parseAttribute(sentences[i], i);
 
-            const lastGroup = layeredimage.getLastGroup();
+            const lastGroup = layeredimage.getGroups().at(-1);
 
             if (lastGroup) {
                 attribute.group = lastGroup.name;
@@ -160,7 +159,7 @@ function parseLayeredImage({ name, sentences }: UnparsedLayeredImage) {
 
                 // This extracts the list of conditions using RegEx;
                 const parsedConditions = indentifier.match(/\[.*\]/);
-                console.log(parsedConditions)
+                // console.log(parsedConditions)
 
                 if (!parsedConditions?.length)
                     throw Error("There's no condtions to parse.");
@@ -268,9 +267,11 @@ const test = new ShowImage(parsedImages[0]);
 test.initDefaultAttr();
 
 
-console.log(test.getTags());
+console.log(test.getImageStatus());
 test.changeAttribute('b1a');
 test.changeAttribute('e1d');
-test.changeAttribute('casual');
-test.changeAttribute('rup');
-console.log(test.getTags());
+// test.changeAttribute('casual');
+test.changeAttribute('rcut');
+console.log(test.getImageStatus());
+
+// TODO: Recomputing of coditionals when attributes change.
