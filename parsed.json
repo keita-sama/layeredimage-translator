@@ -6,22 +6,24 @@
                 "name": "af_logic",
                 "attributes": [
                     {
+                        "asset": null,
+                        "group": "af_logic",
                         "name": "afm",
                         "default": false,
                         "null": true,
                         "if_any": [],
                         "if_all": [],
-                        "if_not": [],
-                        "group": "af_logic"
+                        "if_not": []
                     },
                     {
+                        "asset": null,
+                        "group": "af_logic",
                         "name": "afz",
                         "default": false,
                         "null": true,
                         "if_any": [],
                         "if_all": [],
-                        "if_not": [],
-                        "group": "af_logic"
+                        "if_not": []
                     }
                 ],
                 "if_any": [],
@@ -32,22 +34,24 @@
                 "name": "outfit",
                 "attributes": [
                     {
+                        "asset": null,
+                        "group": "outfit",
                         "name": "uniform",
                         "default": true,
                         "null": true,
                         "if_any": [],
                         "if_all": [],
-                        "if_not": [],
-                        "group": "outfit"
+                        "if_not": []
                     },
                     {
+                        "asset": null,
+                        "group": "outfit",
                         "name": "casual",
                         "default": false,
                         "null": true,
                         "if_any": [],
                         "if_all": [],
-                        "if_not": [],
-                        "group": "outfit"
+                        "if_not": []
                     }
                 ],
                 "if_any": [],
@@ -58,193 +62,214 @@
                 "name": "mood",
                 "attributes": [
                     {
+                        "asset": null,
+                        "group": "mood",
                         "name": "neut",
                         "default": true,
                         "null": true,
                         "if_any": [],
                         "if_all": [],
-                        "if_not": [],
-                        "group": "mood"
+                        "if_not": []
                     },
                     {
+                        "asset": null,
+                        "group": "mood",
                         "name": "angr",
                         "default": false,
                         "null": true,
                         "if_any": [],
                         "if_all": [],
-                        "if_not": [],
-                        "group": "mood"
+                        "if_not": []
                     },
                     {
+                        "asset": null,
+                        "group": "mood",
                         "name": "anno",
                         "default": false,
                         "null": true,
                         "if_any": [],
                         "if_all": [],
-                        "if_not": [],
-                        "group": "mood"
+                        "if_not": []
                     },
                     {
+                        "asset": null,
+                        "group": "mood",
                         "name": "cry",
                         "default": false,
                         "null": true,
                         "if_any": [],
                         "if_all": [],
-                        "if_not": [],
-                        "group": "mood"
+                        "if_not": []
                     },
                     {
+                        "asset": null,
+                        "group": "mood",
                         "name": "curi",
                         "default": false,
                         "null": true,
                         "if_any": [],
                         "if_all": [],
-                        "if_not": [],
-                        "group": "mood"
+                        "if_not": []
                     },
                     {
+                        "asset": null,
+                        "group": "mood",
                         "name": "dist",
                         "default": false,
                         "null": true,
                         "if_any": [],
                         "if_all": [],
-                        "if_not": [],
-                        "group": "mood"
+                        "if_not": []
                     },
                     {
+                        "asset": null,
+                        "group": "mood",
                         "name": "doub",
                         "default": false,
                         "null": true,
                         "if_any": [],
                         "if_all": [],
-                        "if_not": [],
-                        "group": "mood"
+                        "if_not": []
                     },
                     {
+                        "asset": null,
+                        "group": "mood",
                         "name": "flus",
                         "default": false,
                         "null": true,
                         "if_any": [],
                         "if_all": [],
-                        "if_not": [],
-                        "group": "mood"
+                        "if_not": []
                     },
                     {
+                        "asset": null,
+                        "group": "mood",
                         "name": "happ",
                         "default": false,
                         "null": true,
                         "if_any": [],
                         "if_all": [],
-                        "if_not": [],
-                        "group": "mood"
+                        "if_not": []
                     },
                     {
+                        "asset": null,
+                        "group": "mood",
                         "name": "laug",
                         "default": false,
                         "null": true,
                         "if_any": [],
                         "if_all": [],
-                        "if_not": [],
-                        "group": "mood"
+                        "if_not": []
                     },
                     {
+                        "asset": null,
+                        "group": "mood",
                         "name": "lsur",
                         "default": false,
                         "null": true,
                         "if_any": [],
                         "if_all": [],
-                        "if_not": [],
-                        "group": "mood"
+                        "if_not": []
                     },
                     {
+                        "asset": null,
+                        "group": "mood",
                         "name": "nerv",
                         "default": false,
                         "null": true,
                         "if_any": [],
                         "if_all": [],
-                        "if_not": [],
-                        "group": "mood"
+                        "if_not": []
                     },
                     {
+                        "asset": null,
+                        "group": "mood",
                         "name": "pani",
                         "default": false,
                         "null": true,
                         "if_any": [],
                         "if_all": [],
-                        "if_not": [],
-                        "group": "mood"
+                        "if_not": []
                     },
                     {
+                        "asset": null,
+                        "group": "mood",
                         "name": "pout",
                         "default": false,
                         "null": true,
                         "if_any": [],
                         "if_all": [],
-                        "if_not": [],
-                        "group": "mood"
+                        "if_not": []
                     },
                     {
+                        "asset": null,
+                        "group": "mood",
                         "name": "sad",
                         "default": false,
                         "null": true,
                         "if_any": [],
                         "if_all": [],
-                        "if_not": [],
-                        "group": "mood"
+                        "if_not": []
                     },
                     {
+                        "asset": null,
+                        "group": "mood",
                         "name": "sedu",
                         "default": false,
                         "null": true,
                         "if_any": [],
                         "if_all": [],
-                        "if_not": [],
-                        "group": "mood"
+                        "if_not": []
                     },
                     {
+                        "asset": null,
+                        "group": "mood",
                         "name": "shoc",
                         "default": false,
                         "null": true,
                         "if_any": [],
                         "if_all": [],
-                        "if_not": [],
-                        "group": "mood"
+                        "if_not": []
                     },
                     {
+                        "asset": null,
+                        "group": "mood",
                         "name": "vang",
                         "default": false,
                         "null": true,
                         "if_any": [],
                         "if_all": [],
-                        "if_not": [],
-                        "group": "mood"
+                        "if_not": []
                     },
                     {
+                        "asset": null,
+                        "group": "mood",
                         "name": "vsur",
                         "default": false,
                         "null": true,
                         "if_any": [],
                         "if_all": [],
-                        "if_not": [],
-                        "group": "mood"
+                        "if_not": []
                     },
                     {
+                        "asset": null,
+                        "group": "mood",
                         "name": "worr",
                         "default": false,
                         "null": true,
                         "if_any": [],
                         "if_all": [],
-                        "if_not": [],
-                        "group": "mood"
+                        "if_not": []
                     },
                     {
+                        "asset": null,
+                        "group": "mood",
                         "name": "yand",
                         "default": false,
                         "null": true,
                         "if_any": [],
                         "if_all": [],
-                        "if_not": [],
-                        "group": "mood"
+                        "if_not": []
                     }
                 ],
                 "if_any": [],
@@ -255,40 +280,44 @@
                 "name": "blush",
                 "attributes": [
                     {
+                        "asset": null,
+                        "group": "blush",
                         "name": "nobl",
                         "default": false,
                         "null": true,
                         "if_any": [],
                         "if_all": [],
-                        "if_not": [],
-                        "group": "blush"
+                        "if_not": []
                     },
                     {
+                        "asset": null,
+                        "group": "blush",
                         "name": "awkw",
                         "default": false,
                         "null": true,
                         "if_any": [],
                         "if_all": [],
-                        "if_not": [],
-                        "group": "blush"
+                        "if_not": []
                     },
                     {
+                        "asset": null,
+                        "group": "blush",
                         "name": "blus",
                         "default": false,
                         "null": true,
                         "if_any": [],
                         "if_all": [],
-                        "if_not": [],
-                        "group": "blush"
+                        "if_not": []
                     },
                     {
+                        "asset": null,
+                        "group": "blush",
                         "name": "blaw",
                         "default": false,
                         "null": true,
                         "if_any": [],
                         "if_all": [],
-                        "if_not": [],
-                        "group": "blush"
+                        "if_not": []
                     }
                 ],
                 "if_any": [],
@@ -299,24 +328,24 @@
                 "name": "left",
                 "attributes": [
                     {
+                        "asset": "\"mod_assets/MPT/sayori/sayori_turned_uniform_left_down.png\"",
+                        "group": "left",
                         "name": "ldown",
                         "default": true,
                         "null": false,
                         "if_any": [],
                         "if_all": [],
-                        "if_not": [],
-                        "asset": "\"mod_assets/MPT/sayori/sayori_turned_uniform_left_down.png\"",
-                        "group": "left"
+                        "if_not": []
                     },
                     {
+                        "asset": "\"mod_assets/MPT/sayori/sayori_turned_uniform_left_up.png\"",
+                        "group": "left",
                         "name": "lup",
                         "default": false,
                         "null": false,
                         "if_any": [],
                         "if_all": [],
-                        "if_not": [],
-                        "asset": "\"mod_assets/MPT/sayori/sayori_turned_uniform_left_up.png\"",
-                        "group": "left"
+                        "if_not": []
                     }
                 ],
                 "if_any": [
@@ -329,24 +358,24 @@
                 "name": "left",
                 "attributes": [
                     {
+                        "asset": "\"mod_assets/MPT/sayori/sayori_turned_casual_left_down.png\"",
+                        "group": "left",
                         "name": "ldown",
                         "default": true,
                         "null": false,
                         "if_any": [],
                         "if_all": [],
-                        "if_not": [],
-                        "asset": "\"mod_assets/MPT/sayori/sayori_turned_casual_left_down.png\"",
-                        "group": "left"
+                        "if_not": []
                     },
                     {
+                        "asset": "\"mod_assets/MPT/sayori/sayori_turned_casual_left_up.png\"",
+                        "group": "left",
                         "name": "lup",
                         "default": false,
                         "null": false,
                         "if_any": [],
                         "if_all": [],
-                        "if_not": [],
-                        "asset": "\"mod_assets/MPT/sayori/sayori_turned_casual_left_up.png\"",
-                        "group": "left"
+                        "if_not": []
                     }
                 ],
                 "if_any": [
@@ -359,24 +388,24 @@
                 "name": "right",
                 "attributes": [
                     {
+                        "asset": "\"mod_assets/MPT/sayori/sayori_turned_uniform_right_down.png\"",
+                        "group": "right",
                         "name": "rdown",
                         "default": true,
                         "null": false,
                         "if_any": [],
                         "if_all": [],
-                        "if_not": [],
-                        "asset": "\"mod_assets/MPT/sayori/sayori_turned_uniform_right_down.png\"",
-                        "group": "right"
+                        "if_not": []
                     },
                     {
+                        "asset": "\"mod_assets/MPT/sayori/sayori_turned_uniform_right_up.png\"",
+                        "group": "right",
                         "name": "rup",
                         "default": false,
                         "null": false,
                         "if_any": [],
                         "if_all": [],
-                        "if_not": [],
-                        "asset": "\"mod_assets/MPT/sayori/sayori_turned_uniform_right_up.png\"",
-                        "group": "right"
+                        "if_not": []
                     }
                 ],
                 "if_any": [
@@ -389,24 +418,24 @@
                 "name": "right",
                 "attributes": [
                     {
+                        "asset": "\"mod_assets/MPT/sayori/sayori_turned_casual_right_down.png\"",
+                        "group": "right",
                         "name": "rdown",
                         "default": true,
                         "null": false,
                         "if_any": [],
                         "if_all": [],
-                        "if_not": [],
-                        "asset": "\"mod_assets/MPT/sayori/sayori_turned_casual_right_down.png\"",
-                        "group": "right"
+                        "if_not": []
                     },
                     {
+                        "asset": "\"mod_assets/MPT/sayori/sayori_turned_casual_right_up.png\"",
+                        "group": "right",
                         "name": "rup",
                         "default": false,
                         "null": false,
                         "if_any": [],
                         "if_all": [],
-                        "if_not": [],
-                        "asset": "\"mod_assets/MPT/sayori/sayori_turned_casual_right_up.png\"",
-                        "group": "right"
+                        "if_not": []
                     }
                 ],
                 "if_any": [
@@ -419,6 +448,8 @@
                 "name": "nose",
                 "attributes": [
                     {
+                        "asset": "\"mod_assets/MPT/sayori/sayori_turned_nose_n1.png\"",
+                        "group": "nose",
                         "name": "nose",
                         "default": true,
                         "null": false,
@@ -426,11 +457,11 @@
                             "nobl"
                         ],
                         "if_all": [],
-                        "if_not": [],
-                        "asset": "\"mod_assets/MPT/sayori/sayori_turned_nose_n1.png\"",
-                        "group": "nose"
+                        "if_not": []
                     },
                     {
+                        "asset": "\"mod_assets/MPT/sayori/sayori_turned_nose_n2.png\"",
+                        "group": "nose",
                         "name": "nose",
                         "default": true,
                         "null": false,
@@ -438,11 +469,11 @@
                             "awkw"
                         ],
                         "if_all": [],
-                        "if_not": [],
-                        "asset": "\"mod_assets/MPT/sayori/sayori_turned_nose_n2.png\"",
-                        "group": "nose"
+                        "if_not": []
                     },
                     {
+                        "asset": "\"mod_assets/MPT/sayori/sayori_turned_nose_n3.png\"",
+                        "group": "nose",
                         "name": "nose",
                         "default": true,
                         "null": false,
@@ -450,11 +481,11 @@
                             "blus"
                         ],
                         "if_all": [],
-                        "if_not": [],
-                        "asset": "\"mod_assets/MPT/sayori/sayori_turned_nose_n3.png\"",
-                        "group": "nose"
+                        "if_not": []
                     },
                     {
+                        "asset": "\"mod_assets/MPT/sayori/sayori_turned_nose_n4.png\"",
+                        "group": "nose",
                         "name": "nose",
                         "default": true,
                         "null": false,
@@ -462,59 +493,57 @@
                             "blaw"
                         ],
                         "if_all": [],
-                        "if_not": [],
-                        "asset": "\"mod_assets/MPT/sayori/sayori_turned_nose_n4.png\"",
-                        "group": "nose"
+                        "if_not": []
                     },
                     {
+                        "asset": "\"mod_assets/MPT/sayori/sayori_turned_nose_n1.png\"",
+                        "group": "nose",
                         "name": "n1",
                         "default": false,
                         "null": false,
                         "if_any": [],
                         "if_all": [],
-                        "if_not": [],
-                        "asset": "\"mod_assets/MPT/sayori/sayori_turned_nose_n1.png\"",
-                        "group": "nose"
+                        "if_not": []
                     },
                     {
+                        "asset": "\"mod_assets/MPT/sayori/sayori_turned_nose_n2.png\"",
+                        "group": "nose",
                         "name": "n2",
                         "default": false,
                         "null": false,
                         "if_any": [],
                         "if_all": [],
-                        "if_not": [],
-                        "asset": "\"mod_assets/MPT/sayori/sayori_turned_nose_n2.png\"",
-                        "group": "nose"
+                        "if_not": []
                     },
                     {
+                        "asset": "\"mod_assets/MPT/sayori/sayori_turned_nose_n3.png\"",
+                        "group": "nose",
                         "name": "n3",
                         "default": false,
                         "null": false,
                         "if_any": [],
                         "if_all": [],
-                        "if_not": [],
-                        "asset": "\"mod_assets/MPT/sayori/sayori_turned_nose_n3.png\"",
-                        "group": "nose"
+                        "if_not": []
                     },
                     {
+                        "asset": "\"mod_assets/MPT/sayori/sayori_turned_nose_n4.png\"",
+                        "group": "nose",
                         "name": "n4",
                         "default": false,
                         "null": false,
                         "if_any": [],
                         "if_all": [],
-                        "if_not": [],
-                        "asset": "\"mod_assets/MPT/sayori/sayori_turned_nose_n4.png\"",
-                        "group": "nose"
+                        "if_not": []
                     },
                     {
+                        "asset": "\"mod_assets/MPT/sayori/sayori_turned_nose_nl.png\"",
+                        "group": "nose",
                         "name": "nl",
                         "default": false,
                         "null": false,
                         "if_any": [],
                         "if_all": [],
-                        "if_not": [],
-                        "asset": "\"mod_assets/MPT/sayori/sayori_turned_nose_nl.png\"",
-                        "group": "nose"
+                        "if_not": []
                     }
                 ],
                 "if_any": [],
@@ -525,6 +554,8 @@
                 "name": "mouth",
                 "attributes": [
                     {
+                        "asset": "\"mod_assets/MPT/sayori/sayori_turned_mouth_ma.png\"",
+                        "group": "mouth",
                         "name": "cm",
                         "default": true,
                         "null": false,
@@ -534,11 +565,11 @@
                             "nerv"
                         ],
                         "if_all": [],
-                        "if_not": [],
-                        "asset": "\"mod_assets/MPT/sayori/sayori_turned_mouth_ma.png\"",
-                        "group": "mouth"
+                        "if_not": []
                     },
                     {
+                        "asset": "\"mod_assets/MPT/sayori/sayori_turned_mouth_md.png\"",
+                        "group": "mouth",
                         "name": "cm",
                         "default": true,
                         "null": false,
@@ -549,11 +580,11 @@
                             "curi"
                         ],
                         "if_all": [],
-                        "if_not": [],
-                        "asset": "\"mod_assets/MPT/sayori/sayori_turned_mouth_md.png\"",
-                        "group": "mouth"
+                        "if_not": []
                     },
                     {
+                        "asset": "\"mod_assets/MPT/sayori/sayori_turned_mouth_me.png\"",
+                        "group": "mouth",
                         "name": "cm",
                         "default": true,
                         "null": false,
@@ -562,11 +593,11 @@
                             "flus"
                         ],
                         "if_all": [],
-                        "if_not": [],
-                        "asset": "\"mod_assets/MPT/sayori/sayori_turned_mouth_me.png\"",
-                        "group": "mouth"
+                        "if_not": []
                     },
                     {
+                        "asset": "\"mod_assets/MPT/sayori/sayori_turned_mouth_mf.png\"",
+                        "group": "mouth",
                         "name": "cm",
                         "default": true,
                         "null": false,
@@ -575,11 +606,11 @@
                             "shoc"
                         ],
                         "if_all": [],
-                        "if_not": [],
-                        "asset": "\"mod_assets/MPT/sayori/sayori_turned_mouth_mf.png\"",
-                        "group": "mouth"
+                        "if_not": []
                     },
                     {
+                        "asset": "\"mod_assets/MPT/sayori/sayori_turned_mouth_mj.png\"",
+                        "group": "mouth",
                         "name": "cm",
                         "default": true,
                         "null": false,
@@ -590,11 +621,11 @@
                             "doub"
                         ],
                         "if_all": [],
-                        "if_not": [],
-                        "asset": "\"mod_assets/MPT/sayori/sayori_turned_mouth_mj.png\"",
-                        "group": "mouth"
+                        "if_not": []
                     },
                     {
+                        "asset": "\"mod_assets/MPT/sayori/sayori_turned_mouth_mk.png\"",
+                        "group": "mouth",
                         "name": "cm",
                         "default": true,
                         "null": false,
@@ -604,11 +635,11 @@
                             "vsur"
                         ],
                         "if_all": [],
-                        "if_not": [],
-                        "asset": "\"mod_assets/MPT/sayori/sayori_turned_mouth_mk.png\"",
-                        "group": "mouth"
+                        "if_not": []
                     },
                     {
+                        "asset": "\"mod_assets/MPT/sayori/sayori_turned_mouth_mm.png\"",
+                        "group": "mouth",
                         "name": "cm",
                         "default": true,
                         "null": false,
@@ -616,11 +647,11 @@
                             "vang"
                         ],
                         "if_all": [],
-                        "if_not": [],
-                        "asset": "\"mod_assets/MPT/sayori/sayori_turned_mouth_mm.png\"",
-                        "group": "mouth"
+                        "if_not": []
                     },
                     {
+                        "asset": "\"mod_assets/MPT/sayori/sayori_turned_mouth_mn.png\"",
+                        "group": "mouth",
                         "name": "cm",
                         "default": true,
                         "null": false,
@@ -628,11 +659,11 @@
                             "laug"
                         ],
                         "if_all": [],
-                        "if_not": [],
-                        "asset": "\"mod_assets/MPT/sayori/sayori_turned_mouth_mn.png\"",
-                        "group": "mouth"
+                        "if_not": []
                     },
                     {
+                        "asset": "\"mod_assets/MPT/sayori/sayori_turned_mouth_mo.png\"",
+                        "group": "mouth",
                         "name": "cm",
                         "default": true,
                         "null": false,
@@ -640,11 +671,11 @@
                             "yand"
                         ],
                         "if_all": [],
-                        "if_not": [],
-                        "asset": "\"mod_assets/MPT/sayori/sayori_turned_mouth_mo.png\"",
-                        "group": "mouth"
+                        "if_not": []
                     },
                     {
+                        "asset": "\"mod_assets/MPT/sayori/sayori_turned_mouth_mb.png\"",
+                        "group": "mouth",
                         "name": "om",
                         "default": false,
                         "null": false,
@@ -653,11 +684,11 @@
                             "laug"
                         ],
                         "if_all": [],
-                        "if_not": [],
-                        "asset": "\"mod_assets/MPT/sayori/sayori_turned_mouth_mb.png\"",
-                        "group": "mouth"
+                        "if_not": []
                     },
                     {
+                        "asset": "\"mod_assets/MPT/sayori/sayori_turned_mouth_mc.png\"",
+                        "group": "mouth",
                         "name": "om",
                         "default": false,
                         "null": false,
@@ -666,11 +697,11 @@
                             "nerv"
                         ],
                         "if_all": [],
-                        "if_not": [],
-                        "asset": "\"mod_assets/MPT/sayori/sayori_turned_mouth_mc.png\"",
-                        "group": "mouth"
+                        "if_not": []
                     },
                     {
+                        "asset": "\"mod_assets/MPT/sayori/sayori_turned_mouth_mf.png\"",
+                        "group": "mouth",
                         "name": "om",
                         "default": false,
                         "null": false,
@@ -679,11 +710,11 @@
                             "sedu"
                         ],
                         "if_all": [],
-                        "if_not": [],
-                        "asset": "\"mod_assets/MPT/sayori/sayori_turned_mouth_mf.png\"",
-                        "group": "mouth"
+                        "if_not": []
                     },
                     {
+                        "asset": "\"mod_assets/MPT/sayori/sayori_turned_mouth_mg.png\"",
+                        "group": "mouth",
                         "name": "om",
                         "default": false,
                         "null": false,
@@ -693,11 +724,11 @@
                             "dist"
                         ],
                         "if_all": [],
-                        "if_not": [],
-                        "asset": "\"mod_assets/MPT/sayori/sayori_turned_mouth_mg.png\"",
-                        "group": "mouth"
+                        "if_not": []
                     },
                     {
+                        "asset": "\"mod_assets/MPT/sayori/sayori_turned_mouth_mh.png\"",
+                        "group": "mouth",
                         "name": "om",
                         "default": false,
                         "null": false,
@@ -708,11 +739,11 @@
                             "worr"
                         ],
                         "if_all": [],
-                        "if_not": [],
-                        "asset": "\"mod_assets/MPT/sayori/sayori_turned_mouth_mh.png\"",
-                        "group": "mouth"
+                        "if_not": []
                     },
                     {
+                        "asset": "\"mod_assets/MPT/sayori/sayori_turned_mouth_mi.png\"",
+                        "group": "mouth",
                         "name": "om",
                         "default": false,
                         "null": false,
@@ -721,11 +752,11 @@
                             "doub"
                         ],
                         "if_all": [],
-                        "if_not": [],
-                        "asset": "\"mod_assets/MPT/sayori/sayori_turned_mouth_mi.png\"",
-                        "group": "mouth"
+                        "if_not": []
                     },
                     {
+                        "asset": "\"mod_assets/MPT/sayori/sayori_turned_mouth_mk.png\"",
+                        "group": "mouth",
                         "name": "om",
                         "default": false,
                         "null": false,
@@ -733,11 +764,11 @@
                             "flus"
                         ],
                         "if_all": [],
-                        "if_not": [],
-                        "asset": "\"mod_assets/MPT/sayori/sayori_turned_mouth_mk.png\"",
-                        "group": "mouth"
+                        "if_not": []
                     },
                     {
+                        "asset": "\"mod_assets/MPT/sayori/sayori_turned_mouth_ml.png\"",
+                        "group": "mouth",
                         "name": "om",
                         "default": false,
                         "null": false,
@@ -746,11 +777,11 @@
                             "vsur"
                         ],
                         "if_all": [],
-                        "if_not": [],
-                        "asset": "\"mod_assets/MPT/sayori/sayori_turned_mouth_ml.png\"",
-                        "group": "mouth"
+                        "if_not": []
                     },
                     {
+                        "asset": "\"mod_assets/MPT/sayori/sayori_turned_mouth_mq.png\"",
+                        "group": "mouth",
                         "name": "om",
                         "default": false,
                         "null": false,
@@ -760,189 +791,187 @@
                             "vang"
                         ],
                         "if_all": [],
-                        "if_not": [],
-                        "asset": "\"mod_assets/MPT/sayori/sayori_turned_mouth_mq.png\"",
-                        "group": "mouth"
+                        "if_not": []
                     },
                     {
+                        "asset": "\"mod_assets/MPT/sayori/sayori_turned_mouth_ma.png\"",
+                        "group": "mouth",
                         "name": "ma",
                         "default": false,
                         "null": false,
                         "if_any": [],
                         "if_all": [],
-                        "if_not": [],
-                        "asset": "\"mod_assets/MPT/sayori/sayori_turned_mouth_ma.png\"",
-                        "group": "mouth"
+                        "if_not": []
                     },
                     {
+                        "asset": "\"mod_assets/MPT/sayori/sayori_turned_mouth_mb.png\"",
+                        "group": "mouth",
                         "name": "mb",
                         "default": false,
                         "null": false,
                         "if_any": [],
                         "if_all": [],
-                        "if_not": [],
-                        "asset": "\"mod_assets/MPT/sayori/sayori_turned_mouth_mb.png\"",
-                        "group": "mouth"
+                        "if_not": []
                     },
                     {
+                        "asset": "\"mod_assets/MPT/sayori/sayori_turned_mouth_mc.png\"",
+                        "group": "mouth",
                         "name": "mc",
                         "default": false,
                         "null": false,
                         "if_any": [],
                         "if_all": [],
-                        "if_not": [],
-                        "asset": "\"mod_assets/MPT/sayori/sayori_turned_mouth_mc.png\"",
-                        "group": "mouth"
+                        "if_not": []
                     },
                     {
+                        "asset": "\"mod_assets/MPT/sayori/sayori_turned_mouth_md.png\"",
+                        "group": "mouth",
                         "name": "md",
                         "default": false,
                         "null": false,
                         "if_any": [],
                         "if_all": [],
-                        "if_not": [],
-                        "asset": "\"mod_assets/MPT/sayori/sayori_turned_mouth_md.png\"",
-                        "group": "mouth"
+                        "if_not": []
                     },
                     {
+                        "asset": "\"mod_assets/MPT/sayori/sayori_turned_mouth_me.png\"",
+                        "group": "mouth",
                         "name": "me",
                         "default": false,
                         "null": false,
                         "if_any": [],
                         "if_all": [],
-                        "if_not": [],
-                        "asset": "\"mod_assets/MPT/sayori/sayori_turned_mouth_me.png\"",
-                        "group": "mouth"
+                        "if_not": []
                     },
                     {
+                        "asset": "\"mod_assets/MPT/sayori/sayori_turned_mouth_mf.png\"",
+                        "group": "mouth",
                         "name": "mf",
                         "default": false,
                         "null": false,
                         "if_any": [],
                         "if_all": [],
-                        "if_not": [],
-                        "asset": "\"mod_assets/MPT/sayori/sayori_turned_mouth_mf.png\"",
-                        "group": "mouth"
+                        "if_not": []
                     },
                     {
+                        "asset": "\"mod_assets/MPT/sayori/sayori_turned_mouth_mg.png\"",
+                        "group": "mouth",
                         "name": "mg",
                         "default": false,
                         "null": false,
                         "if_any": [],
                         "if_all": [],
-                        "if_not": [],
-                        "asset": "\"mod_assets/MPT/sayori/sayori_turned_mouth_mg.png\"",
-                        "group": "mouth"
+                        "if_not": []
                     },
                     {
+                        "asset": "\"mod_assets/MPT/sayori/sayori_turned_mouth_mh.png\"",
+                        "group": "mouth",
                         "name": "mh",
                         "default": false,
                         "null": false,
                         "if_any": [],
                         "if_all": [],
-                        "if_not": [],
-                        "asset": "\"mod_assets/MPT/sayori/sayori_turned_mouth_mh.png\"",
-                        "group": "mouth"
+                        "if_not": []
                     },
                     {
+                        "asset": "\"mod_assets/MPT/sayori/sayori_turned_mouth_mi.png\"",
+                        "group": "mouth",
                         "name": "mi",
                         "default": false,
                         "null": false,
                         "if_any": [],
                         "if_all": [],
-                        "if_not": [],
-                        "asset": "\"mod_assets/MPT/sayori/sayori_turned_mouth_mi.png\"",
-                        "group": "mouth"
+                        "if_not": []
                     },
                     {
+                        "asset": "\"mod_assets/MPT/sayori/sayori_turned_mouth_mj.png\"",
+                        "group": "mouth",
                         "name": "mj",
                         "default": false,
                         "null": false,
                         "if_any": [],
                         "if_all": [],
-                        "if_not": [],
-                        "asset": "\"mod_assets/MPT/sayori/sayori_turned_mouth_mj.png\"",
-                        "group": "mouth"
+                        "if_not": []
                     },
                     {
+                        "asset": "\"mod_assets/MPT/sayori/sayori_turned_mouth_mk.png\"",
+                        "group": "mouth",
                         "name": "mk",
                         "default": false,
                         "null": false,
                         "if_any": [],
                         "if_all": [],
-                        "if_not": [],
-                        "asset": "\"mod_assets/MPT/sayori/sayori_turned_mouth_mk.png\"",
-                        "group": "mouth"
+                        "if_not": []
                     },
                     {
+                        "asset": "\"mod_assets/MPT/sayori/sayori_turned_mouth_ml.png\"",
+                        "group": "mouth",
                         "name": "ml",
                         "default": false,
                         "null": false,
                         "if_any": [],
                         "if_all": [],
-                        "if_not": [],
-                        "asset": "\"mod_assets/MPT/sayori/sayori_turned_mouth_ml.png\"",
-                        "group": "mouth"
+                        "if_not": []
                     },
                     {
+                        "asset": "\"mod_assets/MPT/sayori/sayori_turned_mouth_mm.png\"",
+                        "group": "mouth",
                         "name": "mm",
                         "default": false,
                         "null": false,
                         "if_any": [],
                         "if_all": [],
-                        "if_not": [],
-                        "asset": "\"mod_assets/MPT/sayori/sayori_turned_mouth_mm.png\"",
-                        "group": "mouth"
+                        "if_not": []
                     },
                     {
+                        "asset": "\"mod_assets/MPT/sayori/sayori_turned_mouth_mn.png\"",
+                        "group": "mouth",
                         "name": "mn",
                         "default": false,
                         "null": false,
                         "if_any": [],
                         "if_all": [],
-                        "if_not": [],
-                        "asset": "\"mod_assets/MPT/sayori/sayori_turned_mouth_mn.png\"",
-                        "group": "mouth"
+                        "if_not": []
                     },
                     {
+                        "asset": "\"mod_assets/MPT/sayori/sayori_turned_mouth_mo.png\"",
+                        "group": "mouth",
                         "name": "mo",
                         "default": false,
                         "null": false,
                         "if_any": [],
                         "if_all": [],
-                        "if_not": [],
-                        "asset": "\"mod_assets/MPT/sayori/sayori_turned_mouth_mo.png\"",
-                        "group": "mouth"
+                        "if_not": []
                     },
                     {
+                        "asset": "\"mod_assets/MPT/sayori/sayori_turned_mouth_mp.png\"",
+                        "group": "mouth",
                         "name": "mp",
                         "default": false,
                         "null": false,
                         "if_any": [],
                         "if_all": [],
-                        "if_not": [],
-                        "asset": "\"mod_assets/MPT/sayori/sayori_turned_mouth_mp.png\"",
-                        "group": "mouth"
+                        "if_not": []
                     },
                     {
+                        "asset": "\"mod_assets/MPT/sayori/sayori_turned_mouth_mq.png\"",
+                        "group": "mouth",
                         "name": "mq",
                         "default": false,
                         "null": false,
                         "if_any": [],
                         "if_all": [],
-                        "if_not": [],
-                        "asset": "\"mod_assets/MPT/sayori/sayori_turned_mouth_mq.png\"",
-                        "group": "mouth"
+                        "if_not": []
                     },
                     {
+                        "asset": "\"mod_assets/MPT/sayori/sayori_turned_mouth_mr.png\"",
+                        "group": "mouth",
                         "name": "mr",
                         "default": false,
                         "null": false,
                         "if_any": [],
                         "if_all": [],
-                        "if_not": [],
-                        "asset": "\"mod_assets/MPT/sayori/sayori_turned_mouth_mr.png\"",
-                        "group": "mouth"
+                        "if_not": []
                     }
                 ],
                 "if_any": [],
@@ -953,6 +982,8 @@
                 "name": "eyes",
                 "attributes": [
                     {
+                        "asset": "\"mod_assets/MPT/sayori/sayori_turned_eyes_e1a.png\"",
+                        "group": "eyes",
                         "name": "oe",
                         "default": true,
                         "null": false,
@@ -964,11 +995,11 @@
                             "sad"
                         ],
                         "if_all": [],
-                        "if_not": [],
-                        "asset": "\"mod_assets/MPT/sayori/sayori_turned_eyes_e1a.png\"",
-                        "group": "eyes"
+                        "if_not": []
                     },
                     {
+                        "asset": "\"mod_assets/MPT/sayori/sayori_turned_eyes_e1b.png\"",
+                        "group": "eyes",
                         "name": "oe",
                         "default": true,
                         "null": false,
@@ -978,11 +1009,11 @@
                             "pout"
                         ],
                         "if_all": [],
-                        "if_not": [],
-                        "asset": "\"mod_assets/MPT/sayori/sayori_turned_eyes_e1b.png\"",
-                        "group": "eyes"
+                        "if_not": []
                     },
                     {
+                        "asset": "\"mod_assets/MPT/sayori/sayori_turned_eyes_e1d.png\"",
+                        "group": "eyes",
                         "name": "oe",
                         "default": true,
                         "null": false,
@@ -992,11 +1023,11 @@
                             "doub"
                         ],
                         "if_all": [],
-                        "if_not": [],
-                        "asset": "\"mod_assets/MPT/sayori/sayori_turned_eyes_e1d.png\"",
-                        "group": "eyes"
+                        "if_not": []
                     },
                     {
+                        "asset": "\"mod_assets/MPT/sayori/sayori_turned_eyes_e1g.png\"",
+                        "group": "eyes",
                         "name": "oe",
                         "default": true,
                         "null": false,
@@ -1004,11 +1035,11 @@
                             "cry"
                         ],
                         "if_all": [],
-                        "if_not": [],
-                        "asset": "\"mod_assets/MPT/sayori/sayori_turned_eyes_e1g.png\"",
-                        "group": "eyes"
+                        "if_not": []
                     },
                     {
+                        "asset": "\"mod_assets/MPT/sayori/sayori_turned_eyes_e2a.png\"",
+                        "group": "eyes",
                         "name": "oe",
                         "default": true,
                         "null": false,
@@ -1019,11 +1050,11 @@
                             "curi"
                         ],
                         "if_all": [],
-                        "if_not": [],
-                        "asset": "\"mod_assets/MPT/sayori/sayori_turned_eyes_e2a.png\"",
-                        "group": "eyes"
+                        "if_not": []
                     },
                     {
+                        "asset": "\"mod_assets/MPT/sayori/sayori_turned_eyes_e2b.png\"",
+                        "group": "eyes",
                         "name": "oe",
                         "default": true,
                         "null": false,
@@ -1031,11 +1062,11 @@
                             "nerv"
                         ],
                         "if_all": [],
-                        "if_not": [],
-                        "asset": "\"mod_assets/MPT/sayori/sayori_turned_eyes_e2b.png\"",
-                        "group": "eyes"
+                        "if_not": []
                     },
                     {
+                        "asset": "\"mod_assets/MPT/sayori/sayori_turned_eyes_e2d.png\"",
+                        "group": "eyes",
                         "name": "oe",
                         "default": true,
                         "null": false,
@@ -1045,11 +1076,11 @@
                             "shoc"
                         ],
                         "if_all": [],
-                        "if_not": [],
-                        "asset": "\"mod_assets/MPT/sayori/sayori_turned_eyes_e2d.png\"",
-                        "group": "eyes"
+                        "if_not": []
                     },
                     {
+                        "asset": "\"mod_assets/MPT/sayori/sayori_turned_eyes_e3a.png\"",
+                        "group": "eyes",
                         "name": "oe",
                         "default": true,
                         "null": false,
@@ -1057,11 +1088,11 @@
                             "yand"
                         ],
                         "if_all": [],
-                        "if_not": [],
-                        "asset": "\"mod_assets/MPT/sayori/sayori_turned_eyes_e3a.png\"",
-                        "group": "eyes"
+                        "if_not": []
                     },
                     {
+                        "asset": "\"mod_assets/MPT/sayori/sayori_turned_eyes_e4a.png\"",
+                        "group": "eyes",
                         "name": "ce",
                         "default": false,
                         "null": false,
@@ -1077,11 +1108,11 @@
                             "doub"
                         ],
                         "if_all": [],
-                        "if_not": [],
-                        "asset": "\"mod_assets/MPT/sayori/sayori_turned_eyes_e4a.png\"",
-                        "group": "eyes"
+                        "if_not": []
                     },
                     {
+                        "asset": "\"mod_assets/MPT/sayori/sayori_turned_eyes_e4b.png\"",
+                        "group": "eyes",
                         "name": "ce",
                         "default": false,
                         "null": false,
@@ -1096,11 +1127,11 @@
                             "sedu"
                         ],
                         "if_all": [],
-                        "if_not": [],
-                        "asset": "\"mod_assets/MPT/sayori/sayori_turned_eyes_e4b.png\"",
-                        "group": "eyes"
+                        "if_not": []
                     },
                     {
+                        "asset": "\"mod_assets/MPT/sayori/sayori_turned_eyes_e4c.png\"",
+                        "group": "eyes",
                         "name": "ce",
                         "default": false,
                         "null": false,
@@ -1110,11 +1141,11 @@
                             "pani"
                         ],
                         "if_all": [],
-                        "if_not": [],
-                        "asset": "\"mod_assets/MPT/sayori/sayori_turned_eyes_e4c.png\"",
-                        "group": "eyes"
+                        "if_not": []
                     },
                     {
+                        "asset": "\"mod_assets/MPT/sayori/sayori_turned_eyes_e4d.png\"",
+                        "group": "eyes",
                         "name": "ce",
                         "default": false,
                         "null": false,
@@ -1122,219 +1153,217 @@
                             "cry"
                         ],
                         "if_all": [],
-                        "if_not": [],
-                        "asset": "\"mod_assets/MPT/sayori/sayori_turned_eyes_e4d.png\"",
-                        "group": "eyes"
+                        "if_not": []
                     },
                     {
+                        "asset": "\"mod_assets/MPT/sayori/sayori_turned_eyes_e1a.png\"",
+                        "group": "eyes",
                         "name": "e1a",
                         "default": false,
                         "null": false,
                         "if_any": [],
                         "if_all": [],
-                        "if_not": [],
-                        "asset": "\"mod_assets/MPT/sayori/sayori_turned_eyes_e1a.png\"",
-                        "group": "eyes"
+                        "if_not": []
                     },
                     {
+                        "asset": "\"mod_assets/MPT/sayori/sayori_turned_eyes_e1b.png\"",
+                        "group": "eyes",
                         "name": "e1b",
                         "default": false,
                         "null": false,
                         "if_any": [],
                         "if_all": [],
-                        "if_not": [],
-                        "asset": "\"mod_assets/MPT/sayori/sayori_turned_eyes_e1b.png\"",
-                        "group": "eyes"
+                        "if_not": []
                     },
                     {
+                        "asset": "\"mod_assets/MPT/sayori/sayori_turned_eyes_e1c.png\"",
+                        "group": "eyes",
                         "name": "e1c",
                         "default": false,
                         "null": false,
                         "if_any": [],
                         "if_all": [],
-                        "if_not": [],
-                        "asset": "\"mod_assets/MPT/sayori/sayori_turned_eyes_e1c.png\"",
-                        "group": "eyes"
+                        "if_not": []
                     },
                     {
+                        "asset": "\"mod_assets/MPT/sayori/sayori_turned_eyes_e1d.png\"",
+                        "group": "eyes",
                         "name": "e1d",
                         "default": false,
                         "null": false,
                         "if_any": [],
                         "if_all": [],
-                        "if_not": [],
-                        "asset": "\"mod_assets/MPT/sayori/sayori_turned_eyes_e1d.png\"",
-                        "group": "eyes"
+                        "if_not": []
                     },
                     {
+                        "asset": "\"mod_assets/MPT/sayori/sayori_turned_eyes_e1e.png\"",
+                        "group": "eyes",
                         "name": "e1e",
                         "default": false,
                         "null": false,
                         "if_any": [],
                         "if_all": [],
-                        "if_not": [],
-                        "asset": "\"mod_assets/MPT/sayori/sayori_turned_eyes_e1e.png\"",
-                        "group": "eyes"
+                        "if_not": []
                     },
                     {
+                        "asset": "\"mod_assets/MPT/sayori/sayori_turned_eyes_e1f.png\"",
+                        "group": "eyes",
                         "name": "e1f",
                         "default": false,
                         "null": false,
                         "if_any": [],
                         "if_all": [],
-                        "if_not": [],
-                        "asset": "\"mod_assets/MPT/sayori/sayori_turned_eyes_e1f.png\"",
-                        "group": "eyes"
+                        "if_not": []
                     },
                     {
+                        "asset": "\"mod_assets/MPT/sayori/sayori_turned_eyes_e1g.png\"",
+                        "group": "eyes",
                         "name": "e1g",
                         "default": false,
                         "null": false,
                         "if_any": [],
                         "if_all": [],
-                        "if_not": [],
-                        "asset": "\"mod_assets/MPT/sayori/sayori_turned_eyes_e1g.png\"",
-                        "group": "eyes"
+                        "if_not": []
                     },
                     {
+                        "asset": "\"mod_assets/MPT/sayori/sayori_turned_eyes_e1h.png\"",
+                        "group": "eyes",
                         "name": "e1h",
                         "default": false,
                         "null": false,
                         "if_any": [],
                         "if_all": [],
-                        "if_not": [],
-                        "asset": "\"mod_assets/MPT/sayori/sayori_turned_eyes_e1h.png\"",
-                        "group": "eyes"
+                        "if_not": []
                     },
                     {
+                        "asset": "\"mod_assets/MPT/sayori/sayori_turned_eyes_e2a.png\"",
+                        "group": "eyes",
                         "name": "e2a",
                         "default": false,
                         "null": false,
                         "if_any": [],
                         "if_all": [],
-                        "if_not": [],
-                        "asset": "\"mod_assets/MPT/sayori/sayori_turned_eyes_e2a.png\"",
-                        "group": "eyes"
+                        "if_not": []
                     },
                     {
+                        "asset": "\"mod_assets/MPT/sayori/sayori_turned_eyes_e2b.png\"",
+                        "group": "eyes",
                         "name": "e2b",
                         "default": false,
                         "null": false,
                         "if_any": [],
                         "if_all": [],
-                        "if_not": [],
-                        "asset": "\"mod_assets/MPT/sayori/sayori_turned_eyes_e2b.png\"",
-                        "group": "eyes"
+                        "if_not": []
                     },
                     {
+                        "asset": "\"mod_assets/MPT/sayori/sayori_turned_eyes_e2c.png\"",
+                        "group": "eyes",
                         "name": "e2c",
                         "default": false,
                         "null": false,
                         "if_any": [],
                         "if_all": [],
-                        "if_not": [],
-                        "asset": "\"mod_assets/MPT/sayori/sayori_turned_eyes_e2c.png\"",
-                        "group": "eyes"
+                        "if_not": []
                     },
                     {
+                        "asset": "\"mod_assets/MPT/sayori/sayori_turned_eyes_e2d.png\"",
+                        "group": "eyes",
                         "name": "e2d",
                         "default": false,
                         "null": false,
                         "if_any": [],
                         "if_all": [],
-                        "if_not": [],
-                        "asset": "\"mod_assets/MPT/sayori/sayori_turned_eyes_e2d.png\"",
-                        "group": "eyes"
+                        "if_not": []
                     },
                     {
+                        "asset": "\"mod_assets/MPT/sayori/sayori_turned_eyes_e3a.png\"",
+                        "group": "eyes",
                         "name": "e3a",
                         "default": false,
                         "null": false,
                         "if_any": [],
                         "if_all": [],
-                        "if_not": [],
-                        "asset": "\"mod_assets/MPT/sayori/sayori_turned_eyes_e3a.png\"",
-                        "group": "eyes"
+                        "if_not": []
                     },
                     {
+                        "asset": "\"mod_assets/MPT/sayori/sayori_turned_eyes_e3b.png\"",
+                        "group": "eyes",
                         "name": "e3b",
                         "default": false,
                         "null": false,
                         "if_any": [],
                         "if_all": [],
-                        "if_not": [],
-                        "asset": "\"mod_assets/MPT/sayori/sayori_turned_eyes_e3b.png\"",
-                        "group": "eyes"
+                        "if_not": []
                     },
                     {
+                        "asset": "\"mod_assets/MPT/sayori/sayori_turned_eyes_e4a.png\"",
+                        "group": "eyes",
                         "name": "e4a",
                         "default": false,
                         "null": false,
                         "if_any": [],
                         "if_all": [],
-                        "if_not": [],
-                        "asset": "\"mod_assets/MPT/sayori/sayori_turned_eyes_e4a.png\"",
-                        "group": "eyes"
+                        "if_not": []
                     },
                     {
+                        "asset": "\"mod_assets/MPT/sayori/sayori_turned_eyes_e4b.png\"",
+                        "group": "eyes",
                         "name": "e4b",
                         "default": false,
                         "null": false,
                         "if_any": [],
                         "if_all": [],
-                        "if_not": [],
-                        "asset": "\"mod_assets/MPT/sayori/sayori_turned_eyes_e4b.png\"",
-                        "group": "eyes"
+                        "if_not": []
                     },
                     {
+                        "asset": "\"mod_assets/MPT/sayori/sayori_turned_eyes_e4c.png\"",
+                        "group": "eyes",
                         "name": "e4c",
                         "default": false,
                         "null": false,
                         "if_any": [],
                         "if_all": [],
-                        "if_not": [],
-                        "asset": "\"mod_assets/MPT/sayori/sayori_turned_eyes_e4c.png\"",
-                        "group": "eyes"
+                        "if_not": []
                     },
                     {
+                        "asset": "\"mod_assets/MPT/sayori/sayori_turned_eyes_e4d.png\"",
+                        "group": "eyes",
                         "name": "e4d",
                         "default": false,
                         "null": false,
                         "if_any": [],
                         "if_all": [],
-                        "if_not": [],
-                        "asset": "\"mod_assets/MPT/sayori/sayori_turned_eyes_e4d.png\"",
-                        "group": "eyes"
+                        "if_not": []
                     },
                     {
+                        "asset": "\"mod_assets/MPT/sayori/sayori_turned_eyes_e4e.png\"",
+                        "group": "eyes",
                         "name": "e4e",
                         "default": false,
                         "null": false,
                         "if_any": [],
                         "if_all": [],
-                        "if_not": [],
-                        "asset": "\"mod_assets/MPT/sayori/sayori_turned_eyes_e4e.png\"",
-                        "group": "eyes"
+                        "if_not": []
                     },
                     {
+                        "asset": "\"mod_assets/MPT/sayori/sayori_turned_eyes_e0a.png\"",
+                        "group": "eyes",
                         "name": "e0a",
                         "default": false,
                         "null": false,
                         "if_any": [],
                         "if_all": [],
-                        "if_not": [],
-                        "asset": "\"mod_assets/MPT/sayori/sayori_turned_eyes_e0a.png\"",
-                        "group": "eyes"
+                        "if_not": []
                     },
                     {
+                        "asset": "\"mod_assets/MPT/sayori/sayori_turned_eyes_e0b.png\"",
+                        "group": "eyes",
                         "name": "e0b",
                         "default": false,
                         "null": false,
                         "if_any": [],
                         "if_all": [],
-                        "if_not": [],
-                        "asset": "\"mod_assets/MPT/sayori/sayori_turned_eyes_e0b.png\"",
-                        "group": "eyes"
+                        "if_not": []
                     }
                 ],
                 "if_any": [],
@@ -1345,6 +1374,8 @@
                 "name": "eyebrows",
                 "attributes": [
                     {
+                        "asset": "\"mod_assets/MPT/sayori/sayori_turned_eyebrows_b1a.png\"",
+                        "group": "eyebrows",
                         "name": "brow",
                         "default": true,
                         "null": false,
@@ -1356,11 +1387,11 @@
                             "shoc"
                         ],
                         "if_all": [],
-                        "if_not": [],
-                        "asset": "\"mod_assets/MPT/sayori/sayori_turned_eyebrows_b1a.png\"",
-                        "group": "eyebrows"
+                        "if_not": []
                     },
                     {
+                        "asset": "\"mod_assets/MPT/sayori/sayori_turned_eyebrows_b1b.png\"",
+                        "group": "eyebrows",
                         "name": "brow",
                         "default": true,
                         "null": false,
@@ -1372,11 +1403,11 @@
                             "nerv"
                         ],
                         "if_all": [],
-                        "if_not": [],
-                        "asset": "\"mod_assets/MPT/sayori/sayori_turned_eyebrows_b1b.png\"",
-                        "group": "eyebrows"
+                        "if_not": []
                     },
                     {
+                        "asset": "\"mod_assets/MPT/sayori/sayori_turned_eyebrows_b1c.png\"",
+                        "group": "eyebrows",
                         "name": "brow",
                         "default": true,
                         "null": false,
@@ -1387,11 +1418,11 @@
                             "sedu"
                         ],
                         "if_all": [],
-                        "if_not": [],
-                        "asset": "\"mod_assets/MPT/sayori/sayori_turned_eyebrows_b1c.png\"",
-                        "group": "eyebrows"
+                        "if_not": []
                     },
                     {
+                        "asset": "\"mod_assets/MPT/sayori/sayori_turned_eyebrows_b1d.png\"",
+                        "group": "eyebrows",
                         "name": "brow",
                         "default": true,
                         "null": false,
@@ -1400,11 +1431,11 @@
                             "pout"
                         ],
                         "if_all": [],
-                        "if_not": [],
-                        "asset": "\"mod_assets/MPT/sayori/sayori_turned_eyebrows_b1d.png\"",
-                        "group": "eyebrows"
+                        "if_not": []
                     },
                     {
+                        "asset": "\"mod_assets/MPT/sayori/sayori_turned_eyebrows_b1e.png\"",
+                        "group": "eyebrows",
                         "name": "brow",
                         "default": true,
                         "null": false,
@@ -1413,11 +1444,11 @@
                             "vang"
                         ],
                         "if_all": [],
-                        "if_not": [],
-                        "asset": "\"mod_assets/MPT/sayori/sayori_turned_eyebrows_b1e.png\"",
-                        "group": "eyebrows"
+                        "if_not": []
                     },
                     {
+                        "asset": "\"mod_assets/MPT/sayori/sayori_turned_eyebrows_b1f.png\"",
+                        "group": "eyebrows",
                         "name": "brow",
                         "default": true,
                         "null": false,
@@ -1426,27 +1457,27 @@
                             "doub"
                         ],
                         "if_all": [],
-                        "if_not": [],
-                        "asset": "\"mod_assets/MPT/sayori/sayori_turned_eyebrows_b1f.png\"",
-                        "group": "eyebrows"
+                        "if_not": []
                     },
                     {
-                        "name": "brow",
-                        "default": true,
-                        "null": false,
-                        "if_any": [
-                            "dist"
-                        ],
-                        "if_all": [
-                            "oe"
-                        ],
-                        "if_not": [
-                            "ce"
-                        ],
                         "asset": "\"mod_assets/MPT/sayori/sayori_turned_eyebrows_b2a.png\"",
-                        "group": "eyebrows"
+                        "group": "eyebrows",
+                        "name": "brow",
+                        "default": true,
+                        "null": false,
+                        "if_any": [
+                            "dist"
+                        ],
+                        "if_all": [
+                            "oe"
+                        ],
+                        "if_not": [
+                            "ce"
+                        ]
                     },
                     {
+                        "asset": "\"mod_assets/MPT/sayori/sayori_turned_eyebrows_b3c.png\"",
+                        "group": "eyebrows",
                         "name": "brow",
                         "default": true,
                         "null": false,
@@ -1458,101 +1489,101 @@
                         ],
                         "if_not": [
                             "oe"
-                        ],
-                        "asset": "\"mod_assets/MPT/sayori/sayori_turned_eyebrows_b3c.png\"",
-                        "group": "eyebrows"
+                        ]
                     },
                     {
+                        "asset": "\"mod_assets/MPT/sayori/sayori_turned_eyebrows_b1a.png\"",
+                        "group": "eyebrows",
                         "name": "b1a",
                         "default": false,
                         "null": false,
                         "if_any": [],
                         "if_all": [],
-                        "if_not": [],
-                        "asset": "\"mod_assets/MPT/sayori/sayori_turned_eyebrows_b1a.png\"",
-                        "group": "eyebrows"
+                        "if_not": []
                     },
                     {
+                        "asset": "\"mod_assets/MPT/sayori/sayori_turned_eyebrows_b1b.png\"",
+                        "group": "eyebrows",
                         "name": "b1b",
                         "default": false,
                         "null": false,
                         "if_any": [],
                         "if_all": [],
-                        "if_not": [],
-                        "asset": "\"mod_assets/MPT/sayori/sayori_turned_eyebrows_b1b.png\"",
-                        "group": "eyebrows"
+                        "if_not": []
                     },
                     {
+                        "asset": "\"mod_assets/MPT/sayori/sayori_turned_eyebrows_b1c.png\"",
+                        "group": "eyebrows",
                         "name": "b1c",
                         "default": false,
                         "null": false,
                         "if_any": [],
                         "if_all": [],
-                        "if_not": [],
-                        "asset": "\"mod_assets/MPT/sayori/sayori_turned_eyebrows_b1c.png\"",
-                        "group": "eyebrows"
+                        "if_not": []
                     },
                     {
+                        "asset": "\"mod_assets/MPT/sayori/sayori_turned_eyebrows_b1d.png\"",
+                        "group": "eyebrows",
                         "name": "b1d",
                         "default": false,
                         "null": false,
                         "if_any": [],
                         "if_all": [],
-                        "if_not": [],
-                        "asset": "\"mod_assets/MPT/sayori/sayori_turned_eyebrows_b1d.png\"",
-                        "group": "eyebrows"
+                        "if_not": []
                     },
                     {
+                        "asset": "\"mod_assets/MPT/sayori/sayori_turned_eyebrows_b1e.png\"",
+                        "group": "eyebrows",
                         "name": "b1e",
                         "default": false,
                         "null": false,
                         "if_any": [],
                         "if_all": [],
-                        "if_not": [],
-                        "asset": "\"mod_assets/MPT/sayori/sayori_turned_eyebrows_b1e.png\"",
-                        "group": "eyebrows"
+                        "if_not": []
                     },
                     {
+                        "asset": "\"mod_assets/MPT/sayori/sayori_turned_eyebrows_b1f.png\"",
+                        "group": "eyebrows",
                         "name": "b1f",
                         "default": false,
                         "null": false,
                         "if_any": [],
                         "if_all": [],
-                        "if_not": [],
-                        "asset": "\"mod_assets/MPT/sayori/sayori_turned_eyebrows_b1f.png\"",
-                        "group": "eyebrows"
+                        "if_not": []
                     },
                     {
+                        "asset": "\"mod_assets/MPT/sayori/sayori_turned_eyebrows_b2a.png\"",
+                        "group": "eyebrows",
                         "name": "b2a",
                         "default": false,
                         "null": false,
                         "if_any": [],
                         "if_all": [],
-                        "if_not": [],
-                        "asset": "\"mod_assets/MPT/sayori/sayori_turned_eyebrows_b2a.png\"",
-                        "group": "eyebrows"
+                        "if_not": []
                     },
                     {
+                        "asset": "\"mod_assets/MPT/sayori/sayori_turned_eyebrows_b2b.png\"",
+                        "group": "eyebrows",
                         "name": "b2b",
                         "default": false,
                         "null": false,
                         "if_any": [],
                         "if_all": [],
-                        "if_not": [],
-                        "asset": "\"mod_assets/MPT/sayori/sayori_turned_eyebrows_b2b.png\"",
-                        "group": "eyebrows"
+                        "if_not": []
                     },
                     {
+                        "asset": "\"mod_assets/MPT/sayori/sayori_turned_eyebrows_b2c.png\"",
+                        "group": "eyebrows",
                         "name": "b2c",
                         "default": false,
                         "null": false,
                         "if_any": [],
                         "if_all": [],
-                        "if_not": [],
-                        "asset": "\"mod_assets/MPT/sayori/sayori_turned_eyebrows_b2c.png\"",
-                        "group": "eyebrows"
+                        "if_not": []
                     },
                     {
+                        "asset": "\"mod_assets/MPT/sayori/sayori_turned_eyebrows_b3a.png\"",
+                        "group": "eyebrows",
                         "name": "b3a",
                         "default": false,
                         "null": false,
@@ -1565,11 +1596,11 @@
                             "ce"
                         ],
                         "if_all": [],
-                        "if_not": [],
-                        "asset": "\"mod_assets/MPT/sayori/sayori_turned_eyebrows_b3a.png\"",
-                        "group": "eyebrows"
+                        "if_not": []
                     },
                     {
+                        "asset": "\"mod_assets/MPT/sayori/sayori_turned_eyebrows_b3b.png\"",
+                        "group": "eyebrows",
                         "name": "b3b",
                         "default": false,
                         "null": false,
@@ -1582,11 +1613,11 @@
                             "ce"
                         ],
                         "if_all": [],
-                        "if_not": [],
-                        "asset": "\"mod_assets/MPT/sayori/sayori_turned_eyebrows_b3b.png\"",
-                        "group": "eyebrows"
+                        "if_not": []
                     },
                     {
+                        "asset": "\"mod_assets/MPT/sayori/sayori_turned_eyebrows_b3c.png\"",
+                        "group": "eyebrows",
                         "name": "b3c",
                         "default": false,
                         "null": false,
@@ -1600,9 +1631,7 @@
                             "ce"
                         ],
                         "if_all": [],
-                        "if_not": [],
-                        "asset": "\"mod_assets/MPT/sayori/sayori_turned_eyebrows_b3c.png\"",
-                        "group": "eyebrows"
+                        "if_not": []
                     }
                 ],
                 "if_any": [],
@@ -1625,22 +1654,24 @@
                 "name": "af_logic",
                 "attributes": [
                     {
+                        "asset": null,
+                        "group": "af_logic",
                         "name": "afm",
                         "default": false,
                         "null": true,
                         "if_any": [],
                         "if_all": [],
-                        "if_not": [],
-                        "group": "af_logic"
+                        "if_not": []
                     },
                     {
+                        "asset": null,
+                        "group": "af_logic",
                         "name": "afz",
                         "default": false,
                         "null": true,
                         "if_any": [],
                         "if_all": [],
-                        "if_not": [],
-                        "group": "af_logic"
+                        "if_not": []
                     }
                 ],
                 "if_any": [],
@@ -1651,24 +1682,24 @@
                 "name": "outfit",
                 "attributes": [
                     {
+                        "asset": "\"mod_assets/MPT/sayori/sayori_tapping_uniform_bodybase.png\"",
+                        "group": "outfit",
                         "name": "uniform",
                         "default": true,
                         "null": false,
                         "if_any": [],
                         "if_all": [],
-                        "if_not": [],
-                        "asset": "\"mod_assets/MPT/sayori/sayori_tapping_uniform_bodybase.png\"",
-                        "group": "outfit"
+                        "if_not": []
                     },
                     {
+                        "asset": "\"mod_assets/MPT/sayori/sayori_tapping_casual_bodybase.png\"",
+                        "group": "outfit",
                         "name": "casual",
                         "default": false,
                         "null": false,
                         "if_any": [],
                         "if_all": [],
-                        "if_not": [],
-                        "asset": "\"mod_assets/MPT/sayori/sayori_tapping_casual_bodybase.png\"",
-                        "group": "outfit"
+                        "if_not": []
                     }
                 ],
                 "if_any": [],
@@ -1679,49 +1710,54 @@
                 "name": "mood",
                 "attributes": [
                     {
+                        "asset": null,
+                        "group": "mood",
                         "name": "nerv",
                         "default": true,
                         "null": true,
                         "if_any": [],
                         "if_all": [],
-                        "if_not": [],
-                        "group": "mood"
+                        "if_not": []
                     },
                     {
+                        "asset": null,
+                        "group": "mood",
                         "name": "angr",
                         "default": false,
                         "null": true,
                         "if_any": [],
                         "if_all": [],
-                        "if_not": [],
-                        "group": "mood"
+                        "if_not": []
                     },
                     {
+                        "asset": null,
+                        "group": "mood",
                         "name": "dist",
                         "default": false,
                         "null": true,
                         "if_any": [],
                         "if_all": [],
-                        "if_not": [],
-                        "group": "mood"
+                        "if_not": []
                     },
                     {
+                        "asset": null,
+                        "group": "mood",
                         "name": "neut",
                         "default": false,
                         "null": true,
                         "if_any": [],
                         "if_all": [],
-                        "if_not": [],
-                        "group": "mood"
+                        "if_not": []
                     },
                     {
+                        "asset": null,
+                        "group": "mood",
                         "name": "pout",
                         "default": false,
                         "null": true,
                         "if_any": [],
                         "if_all": [],
-                        "if_not": [],
-                        "group": "mood"
+                        "if_not": []
                     }
                 ],
                 "if_any": [],
@@ -1732,49 +1768,54 @@
                 "name": "blush",
                 "attributes": [
                     {
+                        "asset": null,
+                        "group": "blush",
                         "name": "nobl",
                         "default": true,
                         "null": true,
                         "if_any": [],
                         "if_all": [],
-                        "if_not": [],
-                        "group": "blush"
+                        "if_not": []
                     },
                     {
+                        "asset": null,
+                        "group": "blush",
                         "name": "awkw",
                         "default": false,
                         "null": true,
                         "if_any": [],
                         "if_all": [],
-                        "if_not": [],
-                        "group": "blush"
+                        "if_not": []
                     },
                     {
+                        "asset": null,
+                        "group": "blush",
                         "name": "blus",
                         "default": false,
                         "null": true,
                         "if_any": [],
                         "if_all": [],
-                        "if_not": [],
-                        "group": "blush"
+                        "if_not": []
                     },
                     {
+                        "asset": null,
+                        "group": "blush",
                         "name": "blaw",
                         "default": false,
                         "null": true,
                         "if_any": [],
                         "if_all": [],
-                        "if_not": [],
-                        "group": "blush"
+                        "if_not": []
                     },
                     {
+                        "asset": null,
+                        "group": "blush",
                         "name": "bful",
                         "default": false,
                         "null": true,
                         "if_any": [],
                         "if_all": [],
-                        "if_not": [],
-                        "group": "blush"
+                        "if_not": []
                     }
                 ],
                 "if_any": [],
@@ -1785,6 +1826,8 @@
                 "name": "nose",
                 "attributes": [
                     {
+                        "asset": "\"mod_assets/MPT/sayori/sayori_tapping_nose_n1.png\"",
+                        "group": "nose",
                         "name": "nose",
                         "default": true,
                         "null": false,
@@ -1792,11 +1835,11 @@
                             "nobl"
                         ],
                         "if_all": [],
-                        "if_not": [],
-                        "asset": "\"mod_assets/MPT/sayori/sayori_tapping_nose_n1.png\"",
-                        "group": "nose"
+                        "if_not": []
                     },
                     {
+                        "asset": "\"mod_assets/MPT/sayori/sayori_tapping_nose_n2.png\"",
+                        "group": "nose",
                         "name": "nose",
                         "default": true,
                         "null": false,
@@ -1804,11 +1847,11 @@
                             "awkw"
                         ],
                         "if_all": [],
-                        "if_not": [],
-                        "asset": "\"mod_assets/MPT/sayori/sayori_tapping_nose_n2.png\"",
-                        "group": "nose"
+                        "if_not": []
                     },
                     {
+                        "asset": "\"mod_assets/MPT/sayori/sayori_tapping_nose_n3.png\"",
+                        "group": "nose",
                         "name": "nose",
                         "default": true,
                         "null": false,
@@ -1816,11 +1859,11 @@
                             "blus"
                         ],
                         "if_all": [],
-                        "if_not": [],
-                        "asset": "\"mod_assets/MPT/sayori/sayori_tapping_nose_n3.png\"",
-                        "group": "nose"
+                        "if_not": []
                     },
                     {
+                        "asset": "\"mod_assets/MPT/sayori/sayori_tapping_nose_n4.png\"",
+                        "group": "nose",
                         "name": "nose",
                         "default": true,
                         "null": false,
@@ -1828,11 +1871,11 @@
                             "blaw"
                         ],
                         "if_all": [],
-                        "if_not": [],
-                        "asset": "\"mod_assets/MPT/sayori/sayori_tapping_nose_n4.png\"",
-                        "group": "nose"
+                        "if_not": []
                     },
                     {
+                        "asset": "\"mod_assets/MPT/sayori/sayori_tapping_nose_n5.png\"",
+                        "group": "nose",
                         "name": "nose",
                         "default": true,
                         "null": false,
@@ -1840,59 +1883,57 @@
                             "bful"
                         ],
                         "if_all": [],
-                        "if_not": [],
-                        "asset": "\"mod_assets/MPT/sayori/sayori_tapping_nose_n5.png\"",
-                        "group": "nose"
+                        "if_not": []
                     },
                     {
+                        "asset": "\"mod_assets/MPT/sayori/sayori_tapping_nose_n1.png\"",
+                        "group": "nose",
                         "name": "n1",
                         "default": false,
                         "null": false,
                         "if_any": [],
                         "if_all": [],
-                        "if_not": [],
-                        "asset": "\"mod_assets/MPT/sayori/sayori_tapping_nose_n1.png\"",
-                        "group": "nose"
+                        "if_not": []
                     },
                     {
+                        "asset": "\"mod_assets/MPT/sayori/sayori_tapping_nose_n2.png\"",
+                        "group": "nose",
                         "name": "n2",
                         "default": false,
                         "null": false,
                         "if_any": [],
                         "if_all": [],
-                        "if_not": [],
-                        "asset": "\"mod_assets/MPT/sayori/sayori_tapping_nose_n2.png\"",
-                        "group": "nose"
+                        "if_not": []
                     },
                     {
+                        "asset": "\"mod_assets/MPT/sayori/sayori_tapping_nose_n3.png\"",
+                        "group": "nose",
                         "name": "n3",
                         "default": false,
                         "null": false,
                         "if_any": [],
                         "if_all": [],
-                        "if_not": [],
-                        "asset": "\"mod_assets/MPT/sayori/sayori_tapping_nose_n3.png\"",
-                        "group": "nose"
+                        "if_not": []
                     },
                     {
+                        "asset": "\"mod_assets/MPT/sayori/sayori_tapping_nose_n4.png\"",
+                        "group": "nose",
                         "name": "n4",
                         "default": false,
                         "null": false,
                         "if_any": [],
                         "if_all": [],
-                        "if_not": [],
-                        "asset": "\"mod_assets/MPT/sayori/sayori_tapping_nose_n4.png\"",
-                        "group": "nose"
+                        "if_not": []
                     },
                     {
+                        "asset": "\"mod_assets/MPT/sayori/sayori_tapping_nose_n5.png\"",
+                        "group": "nose",
                         "name": "n5",
                         "default": false,
                         "null": false,
                         "if_any": [],
                         "if_all": [],
-                        "if_not": [],
-                        "asset": "\"mod_assets/MPT/sayori/sayori_tapping_nose_n5.png\"",
-                        "group": "nose"
+                        "if_not": []
                     }
                 ],
                 "if_any": [],
@@ -1903,6 +1944,8 @@
                 "name": "mouth",
                 "attributes": [
                     {
+                        "asset": "\"mod_assets/MPT/sayori/sayori_tapping_mouth_m2.png\"",
+                        "group": "mouth",
                         "name": "cm",
                         "default": true,
                         "null": false,
@@ -1910,11 +1953,11 @@
                             "pout"
                         ],
                         "if_all": [],
-                        "if_not": [],
-                        "asset": "\"mod_assets/MPT/sayori/sayori_tapping_mouth_m2.png\"",
-                        "group": "mouth"
+                        "if_not": []
                     },
                     {
+                        "asset": "\"mod_assets/MPT/sayori/sayori_tapping_mouth_m3.png\"",
+                        "group": "mouth",
                         "name": "cm",
                         "default": true,
                         "null": false,
@@ -1925,11 +1968,11 @@
                             "dist"
                         ],
                         "if_all": [],
-                        "if_not": [],
-                        "asset": "\"mod_assets/MPT/sayori/sayori_tapping_mouth_m3.png\"",
-                        "group": "mouth"
+                        "if_not": []
                     },
                     {
+                        "asset": "\"mod_assets/MPT/sayori/sayori_tapping_mouth_m1.png\"",
+                        "group": "mouth",
                         "name": "om",
                         "default": false,
                         "null": false,
@@ -1937,11 +1980,11 @@
                             "nerv"
                         ],
                         "if_all": [],
-                        "if_not": [],
-                        "asset": "\"mod_assets/MPT/sayori/sayori_tapping_mouth_m1.png\"",
-                        "group": "mouth"
+                        "if_not": []
                     },
                     {
+                        "asset": "\"mod_assets/MPT/sayori/sayori_tapping_mouth_m4.png\"",
+                        "group": "mouth",
                         "name": "om",
                         "default": false,
                         "null": false,
@@ -1952,49 +1995,47 @@
                             "dist"
                         ],
                         "if_all": [],
-                        "if_not": [],
-                        "asset": "\"mod_assets/MPT/sayori/sayori_tapping_mouth_m4.png\"",
-                        "group": "mouth"
+                        "if_not": []
                     },
                     {
+                        "asset": "\"mod_assets/MPT/sayori/sayori_tapping_mouth_m1.png\"",
+                        "group": "mouth",
                         "name": "m1",
                         "default": false,
                         "null": false,
                         "if_any": [],
                         "if_all": [],
-                        "if_not": [],
-                        "asset": "\"mod_assets/MPT/sayori/sayori_tapping_mouth_m1.png\"",
-                        "group": "mouth"
+                        "if_not": []
                     },
                     {
+                        "asset": "\"mod_assets/MPT/sayori/sayori_tapping_mouth_m2.png\"",
+                        "group": "mouth",
                         "name": "m2",
                         "default": false,
                         "null": false,
                         "if_any": [],
                         "if_all": [],
-                        "if_not": [],
-                        "asset": "\"mod_assets/MPT/sayori/sayori_tapping_mouth_m2.png\"",
-                        "group": "mouth"
+                        "if_not": []
                     },
                     {
+                        "asset": "\"mod_assets/MPT/sayori/sayori_tapping_mouth_m3.png\"",
+                        "group": "mouth",
                         "name": "m3",
                         "default": false,
                         "null": false,
                         "if_any": [],
                         "if_all": [],
-                        "if_not": [],
-                        "asset": "\"mod_assets/MPT/sayori/sayori_tapping_mouth_m3.png\"",
-                        "group": "mouth"
+                        "if_not": []
                     },
                     {
+                        "asset": "\"mod_assets/MPT/sayori/sayori_tapping_mouth_m4.png\"",
+                        "group": "mouth",
                         "name": "m4",
                         "default": false,
                         "null": false,
                         "if_any": [],
                         "if_all": [],
-                        "if_not": [],
-                        "asset": "\"mod_assets/MPT/sayori/sayori_tapping_mouth_m4.png\"",
-                        "group": "mouth"
+                        "if_not": []
                     }
                 ],
                 "if_any": [],
@@ -2005,6 +2046,8 @@
                 "name": "eyes",
                 "attributes": [
                     {
+                        "asset": "\"mod_assets/MPT/sayori/sayori_tapping_eyes_e1.png\"",
+                        "group": "eyes",
                         "name": "oe",
                         "default": true,
                         "null": false,
@@ -2013,11 +2056,11 @@
                             "nerv"
                         ],
                         "if_all": [],
-                        "if_not": [],
-                        "asset": "\"mod_assets/MPT/sayori/sayori_tapping_eyes_e1.png\"",
-                        "group": "eyes"
+                        "if_not": []
                     },
                     {
+                        "asset": "\"mod_assets/MPT/sayori/sayori_tapping_eyes_e2.png\"",
+                        "group": "eyes",
                         "name": "oe",
                         "default": true,
                         "null": false,
@@ -2026,11 +2069,11 @@
                             "dist"
                         ],
                         "if_all": [],
-                        "if_not": [],
-                        "asset": "\"mod_assets/MPT/sayori/sayori_tapping_eyes_e2.png\"",
-                        "group": "eyes"
+                        "if_not": []
                     },
                     {
+                        "asset": "\"mod_assets/MPT/sayori/sayori_tapping_eyes_e5.png\"",
+                        "group": "eyes",
                         "name": "oe",
                         "default": true,
                         "null": false,
@@ -2038,11 +2081,11 @@
                             "angr"
                         ],
                         "if_all": [],
-                        "if_not": [],
-                        "asset": "\"mod_assets/MPT/sayori/sayori_tapping_eyes_e5.png\"",
-                        "group": "eyes"
+                        "if_not": []
                     },
                     {
+                        "asset": "\"mod_assets/MPT/sayori/sayori_tapping_eyes_e6.png\"",
+                        "group": "eyes",
                         "name": "ce",
                         "default": false,
                         "null": false,
@@ -2054,69 +2097,67 @@
                             "dist"
                         ],
                         "if_all": [],
-                        "if_not": [],
-                        "asset": "\"mod_assets/MPT/sayori/sayori_tapping_eyes_e6.png\"",
-                        "group": "eyes"
+                        "if_not": []
                     },
                     {
+                        "asset": "\"mod_assets/MPT/sayori/sayori_tapping_eyes_e1.png\"",
+                        "group": "eyes",
                         "name": "e1",
                         "default": false,
                         "null": false,
                         "if_any": [],
                         "if_all": [],
-                        "if_not": [],
-                        "asset": "\"mod_assets/MPT/sayori/sayori_tapping_eyes_e1.png\"",
-                        "group": "eyes"
+                        "if_not": []
                     },
                     {
+                        "asset": "\"mod_assets/MPT/sayori/sayori_tapping_eyes_e2.png\"",
+                        "group": "eyes",
                         "name": "e2",
                         "default": false,
                         "null": false,
                         "if_any": [],
                         "if_all": [],
-                        "if_not": [],
-                        "asset": "\"mod_assets/MPT/sayori/sayori_tapping_eyes_e2.png\"",
-                        "group": "eyes"
+                        "if_not": []
                     },
                     {
+                        "asset": "\"mod_assets/MPT/sayori/sayori_tapping_eyes_e3.png\"",
+                        "group": "eyes",
                         "name": "e3",
                         "default": false,
                         "null": false,
                         "if_any": [],
                         "if_all": [],
-                        "if_not": [],
-                        "asset": "\"mod_assets/MPT/sayori/sayori_tapping_eyes_e3.png\"",
-                        "group": "eyes"
+                        "if_not": []
                     },
                     {
+                        "asset": "\"mod_assets/MPT/sayori/sayori_tapping_eyes_e4.png\"",
+                        "group": "eyes",
                         "name": "e4",
                         "default": false,
                         "null": false,
                         "if_any": [],
                         "if_all": [],
-                        "if_not": [],
-                        "asset": "\"mod_assets/MPT/sayori/sayori_tapping_eyes_e4.png\"",
-                        "group": "eyes"
+                        "if_not": []
                     },
                     {
+                        "asset": "\"mod_assets/MPT/sayori/sayori_tapping_eyes_e5.png\"",
+                        "group": "eyes",
                         "name": "e5",
                         "default": false,
                         "null": false,
                         "if_any": [],
                         "if_all": [],
-                        "if_not": [],
-                        "asset": "\"mod_assets/MPT/sayori/sayori_tapping_eyes_e5.png\"",
-                        "group": "eyes"
+                        "if_not": []
                     },
                     {
+                        "asset": "\"mod_assets/MPT/sayori/sayori_tapping_eyes_e6.png\"",
+                        "group": "eyes",
                         "name": "e6",
                         "default": false,
                         "null": false,
                         "if_any": [],
                         "if_all": [],
-                        "if_not": [],
-                        "asset": "\"mod_assets/MPT/sayori/sayori_tapping_eyes_e6.png\"",
-                        "group": "eyes"
+                        "if_not": []
                     }
                 ],
                 "if_any": [],
@@ -2130,6 +2171,8 @@
                 "name": "eyebrows",
                 "attributes": [
                     {
+                        "asset": "\"mod_assets/MPT/sayori/sayori_tapping_eyebrows_b3.png\"",
+                        "group": "eyebrows",
                         "name": "brow",
                         "default": true,
                         "null": false,
@@ -2137,11 +2180,11 @@
                             "neut"
                         ],
                         "if_all": [],
-                        "if_not": [],
-                        "asset": "\"mod_assets/MPT/sayori/sayori_tapping_eyebrows_b3.png\"",
-                        "group": "eyebrows"
+                        "if_not": []
                     },
                     {
+                        "asset": "\"mod_assets/MPT/sayori/sayori_tapping_eyebrows_b1.png\"",
+                        "group": "eyebrows",
                         "name": "brow",
                         "default": true,
                         "null": false,
@@ -2150,11 +2193,11 @@
                             "dist"
                         ],
                         "if_all": [],
-                        "if_not": [],
-                        "asset": "\"mod_assets/MPT/sayori/sayori_tapping_eyebrows_b1.png\"",
-                        "group": "eyebrows"
+                        "if_not": []
                     },
                     {
+                        "asset": "\"mod_assets/MPT/sayori/sayori_tapping_eyebrows_b2.png\"",
+                        "group": "eyebrows",
                         "name": "brow",
                         "default": true,
                         "null": false,
@@ -2163,29 +2206,27 @@
                             "angr"
                         ],
                         "if_all": [],
-                        "if_not": [],
-                        "asset": "\"mod_assets/MPT/sayori/sayori_tapping_eyebrows_b2.png\"",
-                        "group": "eyebrows"
+                        "if_not": []
                     },
                     {
+                        "asset": "\"mod_assets/MPT/sayori/sayori_tapping_eyebrows_b1.png\"",
+                        "group": "eyebrows",
                         "name": "b1",
                         "default": false,
                         "null": false,
                         "if_any": [],
                         "if_all": [],
-                        "if_not": [],
-                        "asset": "\"mod_assets/MPT/sayori/sayori_tapping_eyebrows_b1.png\"",
-                        "group": "eyebrows"
+                        "if_not": []
                     },
                     {
+                        "asset": "\"mod_assets/MPT/sayori/sayori_tapping_eyebrows_b2.png\"",
+                        "group": "eyebrows",
                         "name": "b2",
                         "default": false,
                         "null": false,
                         "if_any": [],
                         "if_all": [],
-                        "if_not": [],
-                        "asset": "\"mod_assets/MPT/sayori/sayori_tapping_eyebrows_b2.png\"",
-                        "group": "eyebrows"
+                        "if_not": []
                     }
                 ],
                 "if_any": [],
