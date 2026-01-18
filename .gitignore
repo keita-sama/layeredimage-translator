@@ -1,3 +1,5 @@
 node_modules
 e.py
 MPT
+.vscode
+parsed.json

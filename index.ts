@@ -1,9 +1,11 @@
 class LayeredImage {
-    constructor(name) {
+    name: string;
+    groups: Group[];
+    constructor(name: string) {
         this.name = name;
         this.groups = [];
     }
-    addGroup(name) {
+    addGroup(name: string) {
         this.groups.push(new Group(name));
     }
     getGroups() {
@@ -15,8 +17,8 @@ class LayeredImage {
     getAttributes() {
         return this.groups.map((group) => group.getAttributes()).flat();
     }
-    getAttribute(name) {
-        return this.getAttributes().find(attr => attr.name === name);
+    getAttribute(name: string) {
+        return this.getAttributes().find((attr) => attr.name === name);
     }
     listAttributes() {
         return this.groups.map((group) => group.listAttributes()).flat();
@@ -24,15 +26,18 @@ class LayeredImage {
     // get
 }
 
+type Asset = string | null;
 // not gonna use this.
-class Always {
-    constructor(asset) {
-        this.asset = asset;
-    }
-}
 
 class Group {
-    constructor(name) {
+    name: string;
+    attributes: Attribute[];
+
+    if_any: string[];
+    if_all: string[];
+    if_not: string[];
+
+    constructor(name: string) {
         this.name = name;
         this.attributes = [];
 
@@ -41,7 +46,6 @@ class Group {
         this.if_not = [];
     }
 
-    addAttribute(name, pos) {}
     getLastAttr() {
         return this.attributes.at(-1);
     }
@@ -51,12 +55,24 @@ class Group {
     getAttributes() {
         return this.attributes;
     }
-    getAttribute(name) {
+    getAttribute(name: string) {
         return this.attributes.find((x) => x.name);
     }
 }
 
 class Attribute {
+    always?: boolean;
+    asset: Asset;
+    group?: string;
+
+    name: string;
+    default: boolean;
+    null: boolean;
+
+    if_any: string[];
+    if_all: string[];
+    if_not: string[];
+
     constructor() {
         this.always;
 
@@ -68,7 +84,7 @@ class Attribute {
         this.if_all = [];
         this.if_not = [];
 
-        this.asset;
+        this.asset = null;
     }
 }
 
@@ -76,19 +92,19 @@ const fs = require('node:fs');
 
 const file = fs.readFileSync('./MPT/sayori_layeredimage.rpy').toString();
 
-const splitFile = file
+const splitFile: string[] = file
     .replace(/#.*$/gm, '') // Remove the comments.
     .replace(/\:/g, '')
     .split(/\r\n?|\n/) // split by new lines
-    .map((x) => x.trim()) // trim tabs and empty content that might be left at the end of strings.
-    .filter((x) => x); // remove empty
+    .map((x: string) => x.trim()) // trim tabs and empty content that might be left at the end of strings.
+    .filter((x: string) => x); // remove empty
 
-const imagesToParse = [];
+type UnparsedLayeredImage = { name: string; sentences: string[] };
+
+const imagesToParse: UnparsedLayeredImage[] = [];
 
 for (let j = 0; j < splitFile.length - 1; j++) {
-    // name, sentences
-
-    const imageObj = { name: '', sentences: [] };
+    const imageObj: UnparsedLayeredImage = { name: '', sentences: [] };
 
     if (splitFile[j].startsWith('layeredimage')) {
         imageObj.name = splitFile[j].split(' ').slice(1).join(' ');
@@ -117,46 +133,33 @@ fs.writeFileSync(
     JSON.stringify(imagesToParse.map(parseLayeredImage), null, 4),
 );
 
-// conditionally display attributes
-// returns a boolean value depending on the if_xxx
-// the if_xx functions tell whether an attribute should render or not if they are present.
-
-function createIf(joiner) {
-    return function (statement, if_list) {
-        if (!if_list.length) return true;
-        const eval_str = if_list
-            .map((x) => `statement.includes("${x}")`)
-            .join(joiner);
-
-        return eval(eval_str);
-    };
-}
-
-// const ifAny = createIf(' || ')
-// const ifAll = createIf(' && ')
-// const ifNot = !ifAny;
-
-function ifAny(test, if_any = []) {
+function ifAny(test: string, if_any = []) {
     if (!if_any.length) return true;
     const eval_str = if_any.map((x) => `test.includes("${x}")`).join(' || ');
 
     return eval(eval_str);
 }
 
-function ifAll(test, if_all = []) {
+function ifAll(test: string, if_all = []) {
     if (!if_all.length) return true;
     const eval_str = if_all.map((x) => `test.includes("${x}")`).join(' && ');
 
     return eval(eval_str);
 }
 
-function ifNot(test, if_not = []) {
-    // if (!if_not.length) return true;
+function ifNot(test: string, if_not = []) {
     return !ifAny(test, if_not);
 }
 
+type Tag = { name: string; group: string };
+
+
 class ShowImage {
-    constructor(image) {
+    image: LayeredImage;
+    tags: Attribute[];
+    assets: Asset[];
+
+    constructor(image: LayeredImage) {
         this.image = image;
         this.tags = [];
         this.assets = [];
@@ -166,14 +169,14 @@ class ShowImage {
             ' ',
         );
     }
-    addTag(name, group) {
+    addTag(attribute: Attribute) {
         // this.tags.push(name)
-        this.tags.push({ name, group });
+        this.tags.push(attribute);
 
         return this;
     }
     getTags() {
-        return this.tags.map(tag => tag.name)
+        return this.tags.map((tag) => tag.name);
     }
     initDefaultAttr() {
         let imageStatus = this.getImageStatus();
@@ -182,8 +185,10 @@ class ShowImage {
         for (const group of groups) {
             imageStatus = this.getImageStatus();
             let [groupAny, groupAll, groupNot] = [true, true, true];
-            if (group.if_any.length)
+            if (group.if_any.length) {
+
                 groupAny = ifAny(imageStatus, group.if_any);
+            }
             if (group.if_all.length)
                 groupAll = ifAll(imageStatus, group.if_all);
             if (group.if_not.length)
@@ -192,8 +197,8 @@ class ShowImage {
             // console.log(group.name, groupAny, groupAll, groupNot);
 
             // skip the group because it doesn't meet critera to add tags.
-            if (!(groupAny && groupAll && groupNot)) continue; 
-            
+            if (!(groupAny && groupAll && groupNot)) continue;
+
             // console.log(group.name + ' added!');
             for (const attribute of group.getAttributes()) {
                 if (!attribute.default) continue; // go to the next attribute
@@ -213,14 +218,19 @@ class ShowImage {
 
                 this.tags.push(attribute);
 
-                this.assets.push(attribute.asset); // NOTE: This is actually important
+                if (attribute.asset) {
+                    this.assets.push(attribute.asset); // NOTE: This is actually important
+                }
+                else {
+                    this.assets.push(null)
+                }
             }
         }
     }
-    changeAttribute(name) {
-        const attr = this.image.getAttribute(name);
+    changeAttribute(name: string) {
+        const attr: Attribute = this.image.getAttribute(name);
 
-        const oldAttrIdx = this.tags.findIndex((x) => x.group === attr.group)
+        const oldAttrIdx = this.tags.findIndex((x: Attribute) => x.group === attr.group);
         if (oldAttrIdx !== -1) {
             this.tags[oldAttrIdx] = attr; // replace the attribute
         }
@@ -233,13 +243,12 @@ test.initDefaultAttr();
 
 console.log(test.getTags());
 test.changeAttribute('b1a');
-test.changeAttribute('e1d')
-test.changeAttribute('casual')
-test.changeAttribute('rup')
-console.log(test.getTags())
+test.changeAttribute('e1d');
+test.changeAttribute('casual');
+test.changeAttribute('rup');
+console.log(test.getTags());
 
-
-function parseLayeredImage({ name, sentences }) {
+function parseLayeredImage({ name, sentences }: UnparsedLayeredImage) {
     const layeredimage = new LayeredImage(name);
 
     for (let i = 0; i < sentences.length - 1; i++) {
@@ -256,7 +265,7 @@ function parseLayeredImage({ name, sentences }) {
             layeredimage.getLastGroup().attributes.push(attribute);
         }
     }
-    function parseGroup(groupSentence) {
+    function parseGroup(groupSentence: string) {
         const items = groupSentence.split(' ');
         const logicKeywords = ['if_any', 'if_not', 'if_all'];
 
@@ -277,8 +286,8 @@ function parseLayeredImage({ name, sentences }) {
 
         return group;
     }
-    function parseAttribute(attr, pos) {
-        let splitAttr = attr.split(' ');
+    function parseAttribute(attrSentence: string, pos: number) {
+        let splitAttr = attrSentence.split(' ');
         const attribute = new Attribute();
 
         let nulled = false;
