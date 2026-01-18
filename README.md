@@ -1,15 +1,5 @@
 # layeredimage-translator
 
-To install dependencies:
-
-```bash
-bun install
-```
-
-To run:
-
-```bash
-bun run index.js
-```
-
-This project was created using `bun init` in bun v1.1.33. [Bun](https://bun.sh) is a fast all-in-one JavaScript runtime.
+This repository stores code that (might potentially) power my [MPT-Previewer extension](https://github.com/keita-sama/vscode-mpt)
+<br>
+Parses older `layeredimage` so that it can be manipulated and displayed dynamically. Meant specifically for my extension so there is no guarantees nor support for features that don't appear in the usual Mood Pose Tool code.
