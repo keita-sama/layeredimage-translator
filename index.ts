@@ -154,7 +154,9 @@ function parseLayeredImage({ name, sentences }: UnparsedLayeredImage) {
                 nulled = true;
                 break;
             }
-            if (logicKeywords.some((keyword) => indentifier.startsWith(keyword))) {
+            if (
+                logicKeywords.some((keyword) => indentifier.startsWith(keyword))
+            ) {
                 const logicWord = indentifier.slice(0, 6);
 
                 // This extracts the list of conditions using RegEx;
@@ -222,7 +224,8 @@ class ShowImage {
                 imageStatus = this.getImageStatus();
                 // if (imageStatus.attribute.name)
 
-                let [attrAny, attrAll, attrNot] = [true, true, true]; // by default if there's no condition and it's default it's shown
+                // by default if there's no condition and it's default it's shown
+                let [attrAny, attrAll, attrNot] = [true, true, true];
 
                 if (attribute.if_any.length)
                     attrAny = ifAny(imageStatus, attribute.if_any);
@@ -231,12 +234,6 @@ class ShowImage {
                 if (attribute.if_not.length)
                     attrNot = ifNot(imageStatus, attribute.if_not);
 
-                console.log(
-                    `Attribute: ${attribute.name}`,
-                    attrAny,
-                    attrAll,
-                    attrNot,
-                );
                 if (!(attrAny && attrAll && attrNot)) continue;
 
                 this.addTag(attribute);
@@ -250,14 +247,35 @@ class ShowImage {
         }
     }
     changeAttribute(name: string) {
-        const attr: Attribute | undefined = this.image.getAttribute(name);
+        const imageStatus = this.getImageStatus();
+        // const allAttributes = this.image.getAttributes();
+        const changedAttribute: Attribute | undefined =
+            this.image.getAttribute(name);
 
-        if (!attr) return;
+        if (!changedAttribute) return;
         const oldAttrIdx = this.tags.findIndex(
-            (x: Attribute) => x.group === attr.group,
+            (x: Attribute) => x.group === changedAttribute.group,
         );
-        if (oldAttrIdx !== -1) {
-            this.tags[oldAttrIdx] = attr; // replace the attribute
+
+        let [attrAny, attrAll, attrNot] = [true, true, true];
+
+        if (changedAttribute.if_any.length)
+            attrAny = ifAny(imageStatus, changedAttribute.if_any);
+        if (changedAttribute.if_all.length)
+            attrAll = ifAll(imageStatus, changedAttribute.if_all);
+        if (changedAttribute.if_not.length)
+            attrNot = ifNot(imageStatus, changedAttribute.if_not);
+
+        if (attrAny && attrAll && attrNot) {
+            if (oldAttrIdx !== -1) {
+                this.tags[oldAttrIdx] = changedAttribute; // replace the attribute
+            } else {
+                this.tags.push(changedAttribute);
+            }
+            console.log(`[ACCEPTED!] ${changedAttribute.name}`)
+        }
+        else {
+            console.log(`[REJECTED!] ${changedAttribute.name}`)
         }
     }
 }
@@ -266,12 +284,12 @@ class ShowImage {
 const test = new ShowImage(parsedImages[0]);
 test.initDefaultAttr();
 
-
 console.log(test.getImageStatus());
 test.changeAttribute('b1a');
 test.changeAttribute('e1d');
-// test.changeAttribute('casual');
+test.changeAttribute('casual');
 test.changeAttribute('rcut');
+test.changeAttribute('rup');
 console.log(test.getImageStatus());
 
 // TODO: Recomputing of coditionals when attributes change.
