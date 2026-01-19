@@ -19,6 +19,9 @@ export class LayeredImage {
     getAttribute(name: string) {
         return this.getAttributes().find((attr) => attr.name === name);
     }
+    getMatchingAttributes(name: string) {
+        return this.getAttributes().filter((attr) => attr.name === name);
+    }
     listAttributes() {
         return this.groups.map((group) => group.listAttributes()).flat();
     }

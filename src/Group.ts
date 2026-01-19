@@ -1,5 +1,5 @@
-import { Attribute } from "./Attribute";
-import { LogicKeyword } from "./Attribute";
+import { Attribute } from './Attribute';
+import { LogicKeyword } from './Attribute';
 
 export class Group {
     name: string;
@@ -23,8 +23,8 @@ export class Group {
     getAttributes() {
         return this.attributes;
     }
-    getAttribute(name: string) {
-        return this.attributes.find((x) => x.name);
+    getMatchingAttributes(name: string) {
+        return this.getAttributes().filter((attr) => attr.name === name);
     }
     setIfCondtion(type: LogicKeyword, conditons: string[]) {
         this[type] = conditons;

@@ -199,6 +199,9 @@ class ShowImage {
     getTags() {
         return this.tags.map((tag) => tag.name);
     }
+    getRawTags() {
+        return this.tags;
+    }
     initDefaultAttr() {
         let imageStatus = this.getImageStatus();
         const groups = this.image.getGroups();
@@ -248,34 +251,35 @@ class ShowImage {
     }
     changeAttribute(name: string) {
         const imageStatus = this.getImageStatus();
-        // const allAttributes = this.image.getAttributes();
-        const changedAttribute: Attribute | undefined =
-            this.image.getAttribute(name);
+        const listOfChangedAttrs: Attribute[] | undefined =
+            this.image.getMatchingAttributes(name);
 
-        if (!changedAttribute) return;
-        const oldAttrIdx = this.tags.findIndex(
-            (x: Attribute) => x.group === changedAttribute.group,
-        );
+        if (!listOfChangedAttrs.length) return;
 
-        let [attrAny, attrAll, attrNot] = [true, true, true];
+        for (const changedAttribute of listOfChangedAttrs) {
+            const oldAttrIdx = this.tags.findIndex(
+                (x: Attribute) => x.group === changedAttribute!.group,
+            );
 
-        if (changedAttribute.if_any.length)
-            attrAny = ifAny(imageStatus, changedAttribute.if_any);
-        if (changedAttribute.if_all.length)
-            attrAll = ifAll(imageStatus, changedAttribute.if_all);
-        if (changedAttribute.if_not.length)
-            attrNot = ifNot(imageStatus, changedAttribute.if_not);
+            let [attrAny, attrAll, attrNot] = [true, true, true];
 
-        if (attrAny && attrAll && attrNot) {
-            if (oldAttrIdx !== -1) {
-                this.tags[oldAttrIdx] = changedAttribute; // replace the attribute
+            if (changedAttribute.if_any.length)
+                attrAny = ifAny(imageStatus, changedAttribute.if_any);
+            if (changedAttribute.if_all.length)
+                attrAll = ifAll(imageStatus, changedAttribute.if_all);
+            if (changedAttribute.if_not.length)
+                attrNot = ifNot(imageStatus, changedAttribute.if_not);
+
+            if (attrAny && attrAll && attrNot) {
+                if (oldAttrIdx !== -1) {
+                    this.tags[oldAttrIdx] = changedAttribute; // replace the attribute
+                } else {
+                    this.tags.push(changedAttribute);
+                }
+                // DEBUG: console.log(`[ACCEPTED!] ${changedAttribute.name}`);
             } else {
-                this.tags.push(changedAttribute);
+                // DEBUG: console.log(`[REJECTED!] ${changedAttribute.name}`);
             }
-            console.log(`[ACCEPTED!] ${changedAttribute.name}`)
-        }
-        else {
-            console.log(`[REJECTED!] ${changedAttribute.name}`)
         }
     }
 }
