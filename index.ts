@@ -7,10 +7,11 @@ import {
     LogicKeyword,
     ReservedKeyword,
 } from './src/Attribute';
+import { parseExpressions } from './silly';
 
 type UnparsedLayeredImage = { name: string; sentences: string[] };
 
-const file = fs.readFileSync('./MPT/yuri_layeredimage.rpy').toString();
+const file = fs.readFileSync('./MPT/sayori_custom_layeredimage.rpy').toString();
 const splitFile: string[] = file
     .replace(/#.*$/gm, '') // Remove the comments.
     .replace(/\:/g, '')
@@ -91,7 +92,7 @@ function parseLayeredImage({ name, sentences }: UnparsedLayeredImage) {
         }
     }
     function parseGroup(groupSentence: string) {
-        const items = groupSentence.split(' ');
+        const items = parseExpressions(groupSentence);
         const logicKeywords: LogicKeyword[] = ['if_any', 'if_not', 'if_all'];
 
         // remove the word "group"
@@ -112,7 +113,7 @@ function parseLayeredImage({ name, sentences }: UnparsedLayeredImage) {
                 const parsedConditions = indentifier.match(/\[.*\]/);
 
                 if (!parsedConditions?.length)
-                    throw Error("There's no condtions to parse.");
+                    throw Error("There's no condtions to parse." + '\n' + groupSentence);
                 const conditons = eval(parsedConditions[0]);
                 group.setIfCondtion(logicWord as LogicKeyword, conditons);
                 continue; // get back to this
@@ -121,7 +122,7 @@ function parseLayeredImage({ name, sentences }: UnparsedLayeredImage) {
         return group;
     }
     function parseAttribute(attrSentence: string, pos: number) {
-        const splitAttr = attrSentence.split(' ');
+        const splitAttr = parseExpressions(attrSentence)
         const attribute = new Attribute();
 
         let nulled = false;
@@ -161,10 +162,10 @@ function parseLayeredImage({ name, sentences }: UnparsedLayeredImage) {
 
                 // This extracts the list of conditions using RegEx;
                 const parsedConditions = indentifier.match(/\[.*\]/);
-                // console.log(parsedConditions)
+                // DEBUG: console.log(parsedConditions + attribute.name)
 
                 if (!parsedConditions?.length)
-                    throw Error("There's no condtions to parse.");
+                    throw Error("There's no condtions to parse." + '\n' + sentences[pos] + '\n' + indentifier);
                 const conditons = eval(parsedConditions[0]);
                 attribute.setIfCondtion(logicWord as LogicKeyword, conditons);
                 continue; // get back to this
@@ -296,4 +297,3 @@ test.changeAttribute('rcut');
 test.changeAttribute('rup');
 console.log(test.getImageStatus());
 
-// TODO: Recomputing of coditionals when attributes change.
