@@ -7,8 +7,10 @@ export class LayeredImage {
         this.name = name;
         this.groups = [];
     }
+    // return the group;
     addGroup(name: string) {
         this.groups.push(new Group(name));
+        return this.getGroups().at(-1);
     }
     getGroups() {
         return this.groups;

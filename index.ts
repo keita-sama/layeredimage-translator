@@ -50,18 +50,16 @@ fs.writeFileSync(
     JSON.stringify(imagesToParse.map(parseLayeredImage), null, 4),
 );
 
-function ifAny(test: string, if_any: string[] = []) {
+function ifAny(attributeList: string, if_any: string[] = []) {
     if (!if_any.length) return true;
-    const eval_str = if_any.map((x) => `test.includes("${x}")`).join(' || ');
 
-    return eval(eval_str);
+    return if_any.some((attr) => attributeList.includes(attr));
 }
 
-function ifAll(test: string, if_all: string[] = []) {
+function ifAll(attributeList: string, if_all: string[] = []) {
     if (!if_all.length) return true;
-    const eval_str = if_all.map((x) => `test.includes("${x}")`).join(' && ');
 
-    return eval(eval_str);
+    return if_all.every((attr) => attributeList.includes(attr));
 }
 
 function ifNot(test: string, if_not: string[] = []) {
@@ -113,7 +111,9 @@ function parseLayeredImage({ name, sentences }: UnparsedLayeredImage) {
                 const parsedConditions = indentifier.match(/\[.*\]/);
 
                 if (!parsedConditions?.length)
-                    throw Error("There's no condtions to parse." + '\n' + groupSentence);
+                    throw Error(
+                        "There's no condtions to parse." + '\n' + groupSentence,
+                    );
                 const conditons = eval(parsedConditions[0]);
                 group.setIfCondtion(logicWord as LogicKeyword, conditons);
                 continue; // get back to this
@@ -122,7 +122,7 @@ function parseLayeredImage({ name, sentences }: UnparsedLayeredImage) {
         return group;
     }
     function parseAttribute(attrSentence: string, pos: number) {
-        const splitAttr = parseExpressions(attrSentence)
+        const splitAttr = parseExpressions(attrSentence);
         const attribute = new Attribute();
 
         let nulled = false;
@@ -165,7 +165,13 @@ function parseLayeredImage({ name, sentences }: UnparsedLayeredImage) {
                 // DEBUG: console.log(parsedConditions + attribute.name)
 
                 if (!parsedConditions?.length)
-                    throw Error("There's no condtions to parse." + '\n' + sentences[pos] + '\n' + indentifier);
+                    throw Error(
+                        "There's no condtions to parse." +
+                            '\n' +
+                            sentences[pos] +
+                            '\n' +
+                            indentifier,
+                    );
                 const conditons = eval(parsedConditions[0]);
                 attribute.setIfCondtion(logicWord as LogicKeyword, conditons);
                 continue; // get back to this
@@ -296,4 +302,3 @@ test.changeAttribute('casual');
 test.changeAttribute('rcut');
 test.changeAttribute('rup');
 console.log(test.getImageStatus());
-

@@ -17,6 +17,9 @@ export class Group {
         this.if_all = [];
         this.if_not = [];
     }
+    addAttribute(attribute: Attribute) {
+        this.attributes.push(attribute)
+    }
     listAttributes() {
         return this.attributes.map((attr) => attr.name);
     }
