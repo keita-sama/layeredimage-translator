@@ -50,6 +50,10 @@ fs.writeFileSync(
     JSON.stringify(imagesToParse.map(parseLayeredImage), null, 4),
 );
 
+function destringifyArray(arrayStr: string) {
+    return JSON.parse(arrayStr.replace(/'/g, `"`));
+}
+
 function ifAny(attributeList: string, if_any: string[] = []) {
     if (!if_any.length) return true;
 
@@ -114,7 +118,7 @@ function parseLayeredImage({ name, sentences }: UnparsedLayeredImage) {
                     throw Error(
                         "There's no condtions to parse." + '\n' + groupSentence,
                     );
-                const conditons = eval(parsedConditions[0]);
+                const conditons = destringifyArray(parsedConditions[0]);
                 group.setIfCondtion(logicWord as LogicKeyword, conditons);
                 continue; // get back to this
             }
@@ -172,7 +176,7 @@ function parseLayeredImage({ name, sentences }: UnparsedLayeredImage) {
                             '\n' +
                             indentifier,
                     );
-                const conditons = eval(parsedConditions[0]);
+                const conditons = destringifyArray(parsedConditions[0]);
                 attribute.setIfCondtion(logicWord as LogicKeyword, conditons);
                 continue; // get back to this
             }
