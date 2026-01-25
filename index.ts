@@ -7,6 +7,7 @@ import {
     LogicKeyword,
     ReservedKeyword,
 } from './src/Attribute';
+import { ifAny, ifAll, ifNot } from './src/IfCondition';
 import { parseExpressions } from './silly';
 
 type UnparsedLayeredImage = { name: string; sentences: string[] };
@@ -54,21 +55,7 @@ function destringifyArray(arrayStr: string) {
     return JSON.parse(arrayStr.replace(/'/g, `"`));
 }
 
-function ifAny(attributeList: string, if_any: string[] = []) {
-    if (!if_any.length) return true;
 
-    return if_any.some((attr) => attributeList.includes(attr));
-}
-
-function ifAll(attributeList: string, if_all: string[] = []) {
-    if (!if_all.length) return true;
-
-    return if_all.every((attr) => attributeList.includes(attr));
-}
-
-function ifNot(test: string, if_not: string[] = []) {
-    return !ifAny(test, if_not);
-}
 
 function parseLayeredImage({ name, sentences }: UnparsedLayeredImage) {
     const layeredimage = new LayeredImage(name);
